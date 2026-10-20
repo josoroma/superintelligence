@@ -1,8 +1,8 @@
 {
   "name": "superintelligence-icons",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "private": true,
-  "description": "92 isometric AI system, agent, workflow, and platform icons in five SVG styles",
+  "description": "100 isometric AI system, agent, workflow, and platform icons in five SVG styles",
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",

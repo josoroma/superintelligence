@@ -1,0 +1,42 @@
+{
+  "langchain": {
+    "file": "langchain-official-lockup.svg",
+    "source": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/6a994264a64b3afcdd880f66_LangChain_OSS%20Lockup_light%201.svg",
+    "reference": "https://www.langchain.com/brand-assets",
+    "selectedPathIndices": [
+      0,
+      1,
+      2
+    ]
+  },
+  "langgraph": {
+    "file": "langgraph-official-lockup.svg",
+    "source": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/6a994264a64b3afcdd880f6b_LangGraph_OSS%20Lockup_light%201.svg",
+    "reference": "https://www.langchain.com/brand-assets",
+    "selectedPathIndices": [
+      0,
+      1
+    ]
+  },
+  "deep-agents": {
+    "file": "deep-agents-official-lockup.svg",
+    "source": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/6a99426424dccd963982134c_Deep%20Agents_OSS%20Lockup_light%201.svg",
+    "reference": "https://www.langchain.com/brand-assets",
+    "selectedPathIndices": [
+      0,
+      2,
+      3
+    ]
+  },
+  "langsmith": {
+    "file": "langsmith-official-symbol.svg",
+    "source": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/6a9936e596131f0a19b2c18d_Clip%20path%20group.svg",
+    "reference": "https://www.langchain.com/brand-assets",
+    "selectedPathIndices": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

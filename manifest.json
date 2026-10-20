@@ -1,10 +1,10 @@
 {
   "name": "SuperIntelligence — AI Systems",
-  "version": "1.7.0",
-  "count": 92,
+  "version": "1.8.0",
+  "count": 100,
   "collections": {
-    "systems": 66,
-    "brands": 26
+    "systems": 68,
+    "brands": 32
   },
   "styles": [
     "stroke",
@@ -2147,6 +2147,276 @@
         "duotone": "icons/duotone/agent-loop.svg",
         "fill": "icons/fill/agent-loop.svg",
         "color": "icons/color/agent-loop.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "gpu",
+      "name": "GPU",
+      "category": "Systems & Infrastructure",
+      "description": "A graphics accelerator card with a radial cooling fan, heat-sink fins, and exposed edge-connector contacts.",
+      "tags": [
+        "GPU",
+        "graphics processing unit",
+        "graphics card",
+        "accelerator",
+        "compute",
+        "hardware",
+        "inference",
+        "training",
+        "CUDA"
+      ],
+      "index": 93,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/gpu.svg",
+        "two-tone": "icons/two-tone/gpu.svg",
+        "duotone": "icons/duotone/gpu.svg",
+        "fill": "icons/fill/gpu.svg",
+        "color": "icons/color/gpu.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "quantization",
+      "name": "Quantization",
+      "category": "Models & Learning",
+      "description": "A smooth precision profile is approximated by three broad, discrete levels in a stepped sampling gauge.",
+      "tags": [
+        "quantization",
+        "quantize",
+        "model compression",
+        "reduced precision",
+        "low precision",
+        "INT8",
+        "INT4",
+        "FP16",
+        "GGUF",
+        "discrete levels"
+      ],
+      "index": 94,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/quantization.svg",
+        "two-tone": "icons/two-tone/quantization.svg",
+        "duotone": "icons/duotone/quantization.svg",
+        "fill": "icons/fill/quantization.svg",
+        "color": "icons/color/quantization.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "langchain",
+      "name": "LangChain",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "LangChain",
+        "productType": "Open-source agent framework",
+        "website": "https://www.langchain.com/langchain",
+        "reference": "https://www.langchain.com/brand-assets",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/6a994264a64b3afcdd880f66_LangChain_OSS%20Lockup_light%201.svg",
+        "assetLicense": "Official LangChain brand artwork, subject to LangChain’s brand usage guidelines. No open-source artwork or trademark license is granted by this package; framework code licenses do not apply to the brand marks.",
+        "assetName": "langchain-official-lockup.svg",
+        "assetNotes": "Native linked-chain badge from the official LangChain open-source framework lockup, with its rounded navy background and light-blue strokes. Wordmark and rectangular export clip are omitted; all selected path data and stroke geometry are retained. The other four styles replace the blue emblem with paper-colored ink for contrast. These isometric and tonal presentations are unofficial variants; the linked brand-assets page provides the unmodified artwork and usage guidelines."
+      },
+      "description": "LangChain’s current official linked-chain framework badge in its native navy and light blue.",
+      "tags": [
+        "LangChain",
+        "Lang Chain",
+        "framework",
+        "agents",
+        "Python",
+        "TypeScript"
+      ],
+      "index": 95,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/langchain.svg",
+        "two-tone": "icons/two-tone/langchain.svg",
+        "duotone": "icons/duotone/langchain.svg",
+        "fill": "icons/fill/langchain.svg",
+        "color": "icons/color/langchain.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "langgraph",
+      "name": "LangGraph",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "LangChain",
+        "productType": "Agent runtime and orchestration framework",
+        "website": "https://www.langchain.com/langgraph",
+        "reference": "https://www.langchain.com/brand-assets",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/6a994264a64b3afcdd880f6b_LangGraph_OSS%20Lockup_light%201.svg",
+        "assetLicense": "Official LangChain brand artwork, subject to LangChain’s brand usage guidelines. No open-source artwork or trademark license is granted by this package; framework code licenses do not apply to the brand marks.",
+        "assetName": "langgraph-official-lockup.svg",
+        "assetNotes": "Native four-node badge from the official LangGraph open-source framework lockup, preserving the rounded navy badge and light-blue compound path. Wordmark and rectangular export clip are omitted; selected path data is unchanged. The other four styles use a paper-colored emblem for contrast. These isometric and tonal presentations are unofficial variants; see the linked brand-assets page for unmodified artwork and usage guidelines."
+      },
+      "description": "LangGraph’s current official four-node framework badge, with its original connected geometry.",
+      "tags": [
+        "LangGraph",
+        "Lang Graph",
+        "LangChain",
+        "orchestration",
+        "stateful",
+        "graph",
+        "runtime"
+      ],
+      "index": 96,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/langgraph.svg",
+        "two-tone": "icons/two-tone/langgraph.svg",
+        "duotone": "icons/duotone/langgraph.svg",
+        "fill": "icons/fill/langgraph.svg",
+        "color": "icons/color/langgraph.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "deep-agents",
+      "name": "Deep Agents",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "LangChain",
+        "productType": "Open-source agent harness",
+        "website": "https://www.langchain.com/deep-agents",
+        "reference": "https://www.langchain.com/brand-assets",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/6a99426424dccd963982134c_Deep%20Agents_OSS%20Lockup_light%201.svg",
+        "assetLicense": "Official LangChain brand artwork, subject to LangChain’s brand usage guidelines. No open-source artwork or trademark license is granted by this package; framework code licenses do not apply to the brand marks.",
+        "assetName": "deep-agents-official-lockup.svg",
+        "assetNotes": "Native folded geometric badge from the official Deep Agents open-source framework lockup, preserving its navy background and two light-blue paths. Wordmark, export clip, and rectangular mask are omitted; selected path data is unchanged (the mask only trims a subpixel fraction of the top edge). The other four styles use a paper-colored emblem for contrast. These isometric and tonal presentations are unofficial variants; see the linked brand-assets page for unmodified artwork and usage guidelines."
+      },
+      "description": "Deep Agents’ current official folded geometric badge for LangChain’s long-running agent harness.",
+      "tags": [
+        "Deep Agents",
+        "deepagents",
+        "LangChain",
+        "harness",
+        "planning",
+        "subagents",
+        "context management"
+      ],
+      "index": 97,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/deep-agents.svg",
+        "two-tone": "icons/two-tone/deep-agents.svg",
+        "duotone": "icons/duotone/deep-agents.svg",
+        "fill": "icons/fill/deep-agents.svg",
+        "color": "icons/color/deep-agents.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "langsmith",
+      "name": "LangSmith",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "LangChain",
+        "productType": "Agent engineering and observability platform",
+        "website": "https://www.langchain.com/langsmith-platform",
+        "reference": "https://www.langchain.com/brand-assets",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://cdn.prod.website-files.com/65b8cd72835ceeacd4449a53/6a9936e596131f0a19b2c18d_Clip%20path%20group.svg",
+        "assetLicense": "Official LangChain brand artwork, subject to LangChain’s brand usage guidelines. No open-source artwork or trademark license is granted by this package; framework code licenses do not apply to the brand marks.",
+        "assetName": "langsmith-official-symbol.svg",
+        "assetNotes": "All four native symbol paths from the official black LangSmith brand asset, preserving its #030710 color. The export-bounds rectangular mask is omitted without changing the symbol geometry. These isometric and tonal presentations are unofficial variants; the linked brand-assets page provides the unmodified artwork and usage guidelines."
+      },
+      "description": "LangSmith’s current official four-part symbol, preserving the native silhouette and black color.",
+      "tags": [
+        "LangSmith",
+        "Lang Smith",
+        "LangChain",
+        "observability",
+        "tracing",
+        "evaluation",
+        "deployment"
+      ],
+      "index": 98,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/langsmith.svg",
+        "two-tone": "icons/two-tone/langsmith.svg",
+        "duotone": "icons/duotone/langsmith.svg",
+        "fill": "icons/fill/langsmith.svg",
+        "color": "icons/color/langsmith.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "ai-sdk",
+      "name": "Vercel AI SDK",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Vercel",
+        "productType": "TypeScript AI toolkit",
+        "website": "https://vercel.com/ai-sdk",
+        "reference": "https://vercel.com/geist/brands",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://k2mkucxia43oc7fa.public.blob.vercel-storage.com/front/press/ai-sdk-assets.zip",
+        "assetLicense": "Official Vercel brand artwork; Vercel brand guidelines and trademark rights apply. The package MIT license does not grant rights to these marks.",
+        "assetName": "ai-sdk-logotype-light.svg",
+        "assetNotes": "Native full AI SDK wordmark paths and original #171717 color from the official press kit. The outlined SDK capsule is converted from its rounded rectangle to an equivalent arc path; letter geometry, layout, and proportions are unchanged. This isometric presentation and the four tonal styles are unofficial identification variants."
+      },
+      "description": "The official AI SDK wordmark and outlined SDK capsule on the shared isometric tile.",
+      "tags": [
+        "AI SDK",
+        "Vercel",
+        "TypeScript",
+        "streaming",
+        "tools",
+        "agents",
+        "ai-sdk.dev"
+      ],
+      "index": 99,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/ai-sdk.svg",
+        "two-tone": "icons/two-tone/ai-sdk.svg",
+        "duotone": "icons/duotone/ai-sdk.svg",
+        "fill": "icons/fill/ai-sdk.svg",
+        "color": "icons/color/ai-sdk.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "nextjs",
+      "name": "Next.js",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Vercel",
+        "productType": "React web application framework",
+        "website": "https://nextjs.org/",
+        "reference": "https://vercel.com/geist/brands",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://k2mkucxia43oc7fa.public.blob.vercel-storage.com/front/press/nextjs-assets.zip",
+        "assetLicense": "Official Vercel brand artwork; Vercel brand guidelines and trademark rights apply. The package MIT license does not grant rights to these marks.",
+        "assetName": "nextjs-icon-light-background.svg",
+        "assetNotes": "Native circle-N mark from the official press kit. The source circle and rectangle are converted to equivalent paths and the N path is unchanged. Both white gradient fades are flattened to solid white for this gradient-free collection; the source mask is unnecessary because all retained geometry is inside the circle. These isometric and tonal presentations are unofficial identification variants."
+      },
+      "description": "Next.js’s original circle-N geometry, with gradient fades flattened for a crisp vector mark.",
+      "tags": [
+        "Next.js",
+        "nextjs",
+        "Next",
+        "Vercel",
+        "React",
+        "App Router",
+        "full-stack"
+      ],
+      "index": 100,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/nextjs.svg",
+        "two-tone": "icons/two-tone/nextjs.svg",
+        "duotone": "icons/duotone/nextjs.svg",
+        "fill": "icons/fill/nextjs.svg",
+        "color": "icons/color/nextjs.svg"
       }
     }
   ]

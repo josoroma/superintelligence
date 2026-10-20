@@ -15,6 +15,9 @@ import {dataIcons} from '../src/icons-data.mjs';
 import {specWorkflowIcons} from '../src/icons-spec-workflow.mjs';
 import {agentConfigIcons} from '../src/icons-agent-config.mjs';
 import {agentLoopIcons} from '../src/icons-agent-loop.mjs';
+import {computeIcons} from '../src/icons-compute.mjs';
+import {langchainBrandIcons} from '../src/icons-brands-langchain.mjs';
+import {vercelBrandIcons} from '../src/icons-brands-vercel.mjs';
 import {generateReadmes} from './readmes.mjs';
 import {generateBrand} from './brand.mjs';
 import {generateDiagrams} from './diagram.mjs';
@@ -27,7 +30,8 @@ ids.push('hermes','grok','meta-muse','claude','openai','gemini','perplexity','mi
 ids.push('omarchy','huggingface','nvidia');
 ids.push('kaggle','unsloth','runpod','dataset');
 ids.push('explore','propose','apply','verify','archive','agents-md','claude-md','hooks','commands','skill-bundle','reason','plan','act','observe','evaluate','repeat','agent-loop');
-const definitions=[...coreIcons,...modelIcons,...systemIcons,...capabilityIcons,...operationIcons,...featuredBrandIcons,...globalBrandIcons,...chinaBrandIcons,...ecosystemBrandIcons,...dataIcons,...specWorkflowIcons,...agentConfigIcons,...agentLoopIcons];
+ids.push('gpu','quantization','langchain','langgraph','deep-agents','langsmith','ai-sdk','nextjs');
+const definitions=[...coreIcons,...modelIcons,...systemIcons,...capabilityIcons,...operationIcons,...featuredBrandIcons,...globalBrandIcons,...chinaBrandIcons,...ecosystemBrandIcons,...dataIcons,...specWorkflowIcons,...agentConfigIcons,...agentLoopIcons,...computeIcons,...langchainBrandIcons,...vercelBrandIcons];
 if(definitions.length!==ids.length || new Set(definitions.map(i=>i.id)).size!==ids.length) {
   throw new Error(`Expected ${ids.length} unique concepts`);
 }
@@ -85,7 +89,7 @@ ${brands.map(m=>`- **${m.name}:** ${m.brand.assetNotes||'Source geometry preserv
 
 Hermes uses the detailed portrait paths from Nous Research’s master SVG. Qwen and Doubao are vector traces of the current official reference images; the exported SVGs contain paths, not embedded bitmaps.
 
-Vector data lives in [src/logos](src/logos/), with product definitions in [featured brands](src/icons-brands-featured.mjs), [global brands](src/icons-brands-global.mjs), [Chinese platforms](src/icons-brands-china.mjs), and [developer platforms](src/icons-brands-ecosystem.mjs). The shared [tile carrier](src/brand-kit.mjs) controls the presentation. Source URLs, notes, terms, and search aliases are also stored in [manifest.json](manifest.json).
+Vector data lives in [src/logos](src/logos/), with product definitions in [featured brands](src/icons-brands-featured.mjs), [global brands](src/icons-brands-global.mjs), [Chinese platforms](src/icons-brands-china.mjs), [developer platforms](src/icons-brands-ecosystem.mjs), [LangChain tools](src/icons-brands-langchain.mjs), and [Vercel frameworks](src/icons-brands-vercel.mjs). The shared [tile carrier](src/brand-kit.mjs) controls the presentation. Source URLs, notes, terms, and search aliases are also stored in [manifest.json](manifest.json).
 `);
 if(existsSync(join(root,'src/preview.mjs'))) {
   const {previewHtml}=await import('../src/preview.mjs');

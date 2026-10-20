@@ -10,7 +10,7 @@
 
 Isometric icons for the systems AI teams build and the agents, platforms, and developer environments they use. From MCP, RAG, and orchestration to Hermes, Claude, OpenAI, Hugging Face, NVIDIA, Kaggle, Unsloth, Runpod, and Omarchy, give your dashboard, documentation, or developer tool one consistent visual language.
 
-**92 icons · 5 styles · 460 SVGs**
+**100 icons · 5 styles · 500 SVGs**
 
 <!-- style-navigation:start -->
 **Browse styles:** [Stroke](README-stroke.md) · [Two-tone](README-two-tone.md) · [Duotone](README-duotone.md) · [Fill](README-fill.md) · [**Color**](README.md)
@@ -28,7 +28,7 @@ Isometric icons for the systems AI teams build and the agents, platforms, and de
 
 ## Built for teams shipping AI
 
-- **Systems and the tools behind them.** 66 AI concepts plus 26 agents, platforms, and developer environments, including Chinese model providers. Dedicated icons for agent swarms, MCP, computer use, human approval, and model architectures.
+- **Systems and the tools behind them.** 68 AI concepts plus 32 agents, platforms, and developer environments, including Chinese model providers. Dedicated icons for agent swarms, MCP, computer use, human approval, and model architectures.
 - **One coherent system.** The same isometric camera, rounded geometry, proportions, and lighting across the collection.
 - **Ready for your stack.** Standalone SVG files with transparent backgrounds and no runtime dependencies. Use them in HTML, React, Vue, design tools, or technical docs.
 - **Editable, reproducible source.** MIT licensed system icons and presentation code, with source references for the brand marks.
@@ -44,7 +44,7 @@ Choose a visual treatment without changing the icon's meaning. Every icon is ava
 
 ## The collection
 
-All 92 icons, shown in Color. Click any icon or filename to open its SVG.
+All 100 icons, shown in Color. Click any icon or filename to open its SVG.
 
 <!-- style-navigation:start -->
 **Browse styles:** [Stroke](README-stroke.md) · [Two-tone](README-two-tone.md) · [Duotone](README-duotone.md) · [Fill](README-fill.md) · [**Color**](README.md)
@@ -52,7 +52,7 @@ All 92 icons, shown in Color. Click any icon or filename to open its SVG.
 
 ### Agents & platforms
 
-26 recognizable marks for agents, platforms, and developer environments in a shared isometric presentation. Color uses brand reference colors; the other four styles adapt the marks to the collection's palette. Each includes searchable product metadata and source references in the preview.
+32 recognizable marks for agents, platforms, and developer environments in a shared isometric presentation. Color uses brand reference colors; the other four styles adapt the marks to the collection's palette. Each includes searchable product metadata and source references in the preview.
 
 [View the agents & platforms contact sheet](previews/brands-color-contact-sheet.png)
 
@@ -201,8 +201,38 @@ All 92 icons, shown in Color. Click any icon or filename to open its SVG.
         <strong>Runpod</strong><br>
         <sub><a href="icons/color/runpod.svg">runpod.svg</a></sub>
       </td>
-      <td></td>
-      <td></td>
+      <td align="center" width="25%">
+        <a href="icons/color/langchain.svg"><img src="icons/color/langchain.svg" width="112" height="112" alt="LangChain"></a><br>
+        <strong>LangChain</strong><br>
+        <sub><a href="icons/color/langchain.svg">langchain.svg</a></sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="icons/color/langgraph.svg"><img src="icons/color/langgraph.svg" width="112" height="112" alt="LangGraph"></a><br>
+        <strong>LangGraph</strong><br>
+        <sub><a href="icons/color/langgraph.svg">langgraph.svg</a></sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="25%">
+        <a href="icons/color/deep-agents.svg"><img src="icons/color/deep-agents.svg" width="112" height="112" alt="Deep Agents"></a><br>
+        <strong>Deep Agents</strong><br>
+        <sub><a href="icons/color/deep-agents.svg">deep-agents.svg</a></sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="icons/color/langsmith.svg"><img src="icons/color/langsmith.svg" width="112" height="112" alt="LangSmith"></a><br>
+        <strong>LangSmith</strong><br>
+        <sub><a href="icons/color/langsmith.svg">langsmith.svg</a></sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="icons/color/ai-sdk.svg"><img src="icons/color/ai-sdk.svg" width="112" height="112" alt="Vercel AI SDK"></a><br>
+        <strong>Vercel AI SDK</strong><br>
+        <sub><a href="icons/color/ai-sdk.svg">ai-sdk.svg</a></sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="icons/color/nextjs.svg"><img src="icons/color/nextjs.svg" width="112" height="112" alt="Next.js"></a><br>
+        <strong>Next.js</strong><br>
+        <sub><a href="icons/color/nextjs.svg">nextjs.svg</a></sub>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -211,7 +241,7 @@ These are unofficial adaptations. Names and marks belong to their respective own
 
 ### AI systems
 
-66 concepts for interfaces, architecture diagrams, and developer documentation.
+68 concepts for interfaces, architecture diagrams, and developer documentation.
 
 
 <table>
@@ -486,8 +516,16 @@ These are unofficial adaptations. Names and marks belong to their respective own
         <strong>Dataset</strong><br>
         <sub><a href="icons/color/dataset.svg">dataset.svg</a></sub>
       </td>
-      <td></td>
-      <td></td>
+      <td align="center" width="25%">
+        <a href="icons/color/gpu.svg"><img src="icons/color/gpu.svg" width="112" height="112" alt="GPU"></a><br>
+        <strong>GPU</strong><br>
+        <sub><a href="icons/color/gpu.svg">gpu.svg</a></sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="icons/color/quantization.svg"><img src="icons/color/quantization.svg" width="112" height="112" alt="Quantization"></a><br>
+        <strong>Quantization</strong><br>
+        <sub><a href="icons/color/quantization.svg">quantization.svg</a></sub>
+      </td>
       <td></td>
     </tr>
   </tbody>
@@ -737,14 +775,14 @@ Stroke weights scale with the viewBox. Stroke uses white faces to hide rear geom
 
 | Path | Contents |
 | --- | --- |
-| [icons/](icons/) | 460 SVGs organized into five style folders |
+| [icons/](icons/) | 500 SVGs organized into five style folders |
 | [brand/](brand/) | SuperIntelligence wordmark and neon octopus, with light, dark, and monochrome SVGs |
 | [README.md](README.md) and `README-{style}.md` | Complete, cross-linked galleries for each of the five styles |
 | [index.html](index.html) | Standalone offline preview and exporter |
 | [previews/](previews/) | SVG and PNG sheets of the complete collection |
 | [examples/diagrams/](examples/diagrams/) | Ready-to-embed agent workflow and six-stage loop diagrams in all five styles |
 | [manifest.json](manifest.json) | Names, descriptions, collections, product metadata, palette, camera, and asset paths |
-| [BRAND-REFERENCES.md](BRAND-REFERENCES.md) | Product references, vector sources, and artwork terms for the 26 agents, platforms, and developer environments |
+| [BRAND-REFERENCES.md](BRAND-REFERENCES.md) | Product references, vector sources, and artwork terms for the 32 agents, platforms, and developer environments |
 | [motion.css](motion.css) | Optional hover and focus motion |
 | [src/](src/) | Editable geometry, renderer, and preview template |
 | [scripts/](scripts/) | Build, validation, and packaging commands |
@@ -755,11 +793,11 @@ Requires Node.js 20.10+ and Python 3. No `npm install` is needed.
 
 ```sh
 npm run build   # Regenerate icons, diagrams, SVG sheets, manifest, preview, and style READMEs
-npm run check   # Validate all 460 SVGs
+npm run check   # Validate all 500 SVGs
 npm run pack    # Create superintelligence-icons.zip
 ```
 
-Edit the system geometry in [icons-core.mjs](src/icons-core.mjs), [icons-models.mjs](src/icons-models.mjs), [icons-systems.mjs](src/icons-systems.mjs), [icons-capabilities.mjs](src/icons-capabilities.mjs), [icons-operations.mjs](src/icons-operations.mjs), [icons-data.mjs](src/icons-data.mjs), [icons-spec-workflow.mjs](src/icons-spec-workflow.mjs), [icons-agent-config.mjs](src/icons-agent-config.mjs), or [icons-agent-loop.mjs](src/icons-agent-loop.mjs). Named products live in [icons-brands-featured.mjs](src/icons-brands-featured.mjs), [icons-brands-global.mjs](src/icons-brands-global.mjs), [icons-brands-china.mjs](src/icons-brands-china.mjs), and [icons-brands-ecosystem.mjs](src/icons-brands-ecosystem.mjs), with shared geometry in [brand-kit.mjs](src/brand-kit.mjs).
+Edit the system geometry in [icons-core.mjs](src/icons-core.mjs), [icons-models.mjs](src/icons-models.mjs), [icons-systems.mjs](src/icons-systems.mjs), [icons-capabilities.mjs](src/icons-capabilities.mjs), [icons-operations.mjs](src/icons-operations.mjs), [icons-data.mjs](src/icons-data.mjs), [icons-spec-workflow.mjs](src/icons-spec-workflow.mjs), [icons-agent-config.mjs](src/icons-agent-config.mjs), [icons-agent-loop.mjs](src/icons-agent-loop.mjs), or [icons-compute.mjs](src/icons-compute.mjs). Named products live in [icons-brands-featured.mjs](src/icons-brands-featured.mjs), [icons-brands-global.mjs](src/icons-brands-global.mjs), [icons-brands-china.mjs](src/icons-brands-china.mjs), [icons-brands-ecosystem.mjs](src/icons-brands-ecosystem.mjs), [icons-brands-langchain.mjs](src/icons-brands-langchain.mjs), and [icons-brands-vercel.mjs](src/icons-brands-vercel.mjs), with shared geometry in [brand-kit.mjs](src/brand-kit.mjs).
 
 Change materials and style mapping in [scene.mjs](src/scene.mjs). Edit source modules rather than generated files to preserve your changes across builds.
 
@@ -771,7 +809,7 @@ The included PNG sheets are snapshots of the delivered version. You can also ser
 
 ## License and credits
 
-The 66 original AI system icons and the package's original source and isometric presentation are available under the [MIT license](LICENSE). Third-party brand marks retain their owners' rights and source terms; they are not relicensed by this package. See [BRAND-REFERENCES.md](BRAND-REFERENCES.md) for individual sources. No endorsement or trademark rights are implied.
+The 68 original AI system icons and the package's original source and isometric presentation are available under the [MIT license](LICENSE). Third-party brand marks retain their owners' rights and source terms; they are not relicensed by this package. See [BRAND-REFERENCES.md](BRAND-REFERENCES.md) for individual sources. No endorsement or trademark rights are implied.
 
 Projection and geometry helpers use Ryan's Anatomy toolkit, included with its [MIT license](vendor/anatomy/LICENSE). Overflow Design informed the general isometric direction.
 

@@ -1,0 +1,22 @@
+{
+  "ai-sdk": {
+    "source": "https://k2mkucxia43oc7fa.public.blob.vercel-storage.com/front/press/ai-sdk-assets.zip",
+    "reference": "https://vercel.com/geist/brands",
+    "license": "Official Vercel brand artwork; Vercel brand guidelines and trademark rights apply. The package MIT license does not grant rights to these marks.",
+    "notes": "Native full AI SDK wordmark paths and original #171717 color from the official press kit. The outlined SDK capsule is converted from its rounded rectangle to an equivalent arc path; letter geometry, layout, and proportions are unchanged. This isometric presentation and the four tonal styles are unofficial identification variants.",
+    "assetName": "ai-sdk-logotype-light.svg",
+    "archiveEntry": "ai-sdk/Light/ai-sdk-logotype-light.svg",
+    "retrieved": "2026-10-20",
+    "sha256": "f32861eb866386cebd22ceca3a76293bc058738c151521b5ac3f5e2bf650d016"
+  },
+  "nextjs": {
+    "source": "https://k2mkucxia43oc7fa.public.blob.vercel-storage.com/front/press/nextjs-assets.zip",
+    "reference": "https://vercel.com/geist/brands",
+    "license": "Official Vercel brand artwork; Vercel brand guidelines and trademark rights apply. The package MIT license does not grant rights to these marks.",
+    "notes": "Native circle-N mark from the official press kit. The source circle and rectangle are converted to equivalent paths and the N path is unchanged. Both white gradient fades are flattened to solid white for this gradient-free collection; the source mask is unnecessary because all retained geometry is inside the circle. These isometric and tonal presentations are unofficial identification variants.",
+    "assetName": "nextjs-icon-light-background.svg",
+    "archiveEntry": "NEXTJS/icon/light-background/nextjs-icon-light-background.svg",
+    "retrieved": "2026-10-20",
+    "sha256": "44b2a36d8c1e608e14e56f8757e9e710143460bc83c9450b55e6995f80120a3d"
+  }
+}
