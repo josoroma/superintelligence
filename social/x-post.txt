@@ -1,5 +1,7 @@
 SuperIntelligence 🐙
 
-75 isometric icons for AI agents, models, tools, and workflows. Five styles. 375 SVGs for your UI, docs, and diagrams.
+100 isometric icons. 5 styles. 500 SVGs.
+
+For AI agents, tools, dashboards & docs. Includes Codex skills to create icons and diagrams.
 
 https://github.com/josoroma/superintelligence
