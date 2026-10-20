@@ -1,0 +1,37 @@
+{
+  "hermes": {
+    "source": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/assets/icon-master.svg",
+    "reference": "https://hermes-agent.nousresearch.com/",
+    "license": "MIT — Nous Research source; brand rights retained by Nous Research",
+    "notes": "Original portrait paths from the official Hermes master icon; app tile and clipping wrapper removed, full portrait bounds fitted to the face.",
+    "sha256": "6c4968c1a46f104559684826ed8061fad6052711ff0af9c6b36a6ce674536684"
+  },
+  "grok": {
+    "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/grok.svg",
+    "reference": "https://x.ai/bot",
+    "license": "MIT — LobeHub vector source; brand rights retained by the respective owner",
+    "notes": "Native compound logo path from Lobe Icons, checked against the official brand reference.",
+    "sha256": "9175fc90c22655160231976c849f25a03b888d7cc0e04c5f1b987b659bb07c95"
+  },
+  "meta-muse": {
+    "source": "https://muse.ai/images/favicon/app-squiggle.svg",
+    "reference": "https://muse.ai/",
+    "license": "Meta brand asset; trademark and artwork rights retained by Meta",
+    "notes": "Original Muse squiggle path; blue gradient replaced with solid #0064E0 for the flat-vector set.",
+    "sha256": "6373d89d274258a38432f3c3729cd716498b8ded849b174a7998683dcf4aaba5"
+  },
+  "claude": {
+    "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/claude-color.svg",
+    "reference": "https://claude.com/",
+    "license": "MIT — LobeHub vector source; brand rights retained by the respective owner",
+    "notes": "Native compound logo path from Lobe Icons, checked against the official brand reference.",
+    "sha256": "a3101f3047a119aa11825ad9369510f0c472428c8c52d420e31bc62db44a8364"
+  },
+  "openai": {
+    "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openai.svg",
+    "reference": "https://openai.com/brand/",
+    "license": "MIT — LobeHub vector source; brand rights retained by the respective owner",
+    "notes": "Native compound logo path from Lobe Icons, checked against the official brand reference.",
+    "sha256": "a595df6b423920c67a7f8f73c063e4bfb72d415948097b6cac063a2366bb5186"
+  }
+}

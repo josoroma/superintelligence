@@ -1,0 +1,51 @@
+{
+  "gemini": {
+    "source": "https://www.gstatic.com/lamda/images/gemini_sparkle_aurora_33f86dc0c0257da337c63.svg",
+    "reference": "https://design.google/library/gemini-ai-visual-design",
+    "license": "Brand-owned asset; see the linked official brand reference for usage terms. Trademark rights remain with the respective owner.",
+    "assetName": "gemini_sparkle_aurora_33f86dc0c0257da337c63.svg",
+    "notes": "Exact vector silhouette extracted from the official asset. Its raster/gradient interior is replaced by the source base blue #3186FF to retain flat, vector-only output."
+  },
+  "perplexity": {
+    "source": "https://firebasestorage.googleapis.com/v0/b/standards-site-beta.appspot.com/o/documents%2F6t12iheczyb%2F732776432bb%2FPerplexity-Primary-Symbol-TrueTurquoise.svg?alt=media&token=945c2f85-a3a6-4827-8723-3f20174392b9",
+    "reference": "https://live.standards.site/perplexity/logo",
+    "license": "Brand-owned asset; see the linked official brand reference for usage terms. Trademark rights remain with the respective owner.",
+    "assetName": "Perplexity-Primary-Symbol-TrueTurquoise.svg",
+    "notes": "Native paths, mitered strokes, and True Turquoise color from the official brand kit."
+  },
+  "mistral": {
+    "source": "https://mistral.ai/cms-media/api/documents/file/Mistral_Logos_2026.zip",
+    "reference": "https://mistral.ai/brand/",
+    "license": "Brand-owned asset; see the linked official brand reference for usage terms. Trademark rights remain with the respective owner.",
+    "assetName": "Mistral_Logos_2026/Icon/Gradient/RGB/SVG/Mistral-Icon-Gradient-RGB.svg",
+    "notes": "Official 2026 pixel geometry and five solid color bands. Rectangles are converted losslessly to paths; artwork-only viewBox removes export padding."
+  },
+  "copilot": {
+    "source": "https://raw.githubusercontent.com/primer/octicons/2f3d788e5357d908137436fefd349685692b30da/icons/copilot-24.svg",
+    "reference": "https://primer.style/octicons/icon/copilot-24",
+    "license": "MIT (Primer Octicons, copyright 2026 GitHub Inc.); GitHub trademarks remain with GitHub.",
+    "assetName": "copilot-24.svg",
+    "notes": "Official Primer product UI mascot icon. GitHub no longer uses this mascot as the standalone marketing logo; product UI iconography retains it."
+  },
+  "cursor": {
+    "source": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/brand/cursor-brand-assets.zip",
+    "reference": "https://cursor.com/brand",
+    "license": "Brand-owned asset; see the linked official brand reference for usage terms. Trademark rights remain with the respective owner.",
+    "assetName": "General Logos/Cube/SVG/CUBE_2D_LIGHT.svg",
+    "notes": "Official 2D cube with its original native compound path and cutout."
+  },
+  "openclaw": {
+    "source": "https://openclaw.ai/favicon.svg",
+    "reference": "https://openclaw.ai/",
+    "license": "Brand-owned asset; see the linked official brand reference for usage terms. Trademark rights remain with the respective owner.",
+    "assetName": "favicon.svg",
+    "notes": "Exact official lobster curves and antenna strokes. Gradient body is flattened to its original red stop #FF4D4D. Circles are converted losslessly to arc paths; monochrome styles retain white eye knockouts."
+  },
+  "manus": {
+    "source": "https://files.manuscdn.com/assets/image/brand/image/Manus-Glyph-Black.svg",
+    "reference": "https://manus.im/brand",
+    "license": "Brand-owned asset; see the linked official brand reference for usage terms. Trademark rights remain with the respective owner.",
+    "assetName": "Manus-Glyph-Black.svg",
+    "notes": "Unmodified official hand glyph compound path, including original fill rule and interior details."
+  }
+}

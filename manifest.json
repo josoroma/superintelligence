@@ -1,0 +1,1493 @@
+{
+  "name": "SuperIntelligence — AI Systems",
+  "version": "1.4.0",
+  "count": 68,
+  "collections": {
+    "systems": 48,
+    "brands": 20
+  },
+  "styles": [
+    "stroke",
+    "two-tone",
+    "duotone",
+    "fill",
+    "color"
+  ],
+  "camera": {
+    "azimuth": 45,
+    "elevation": 30
+  },
+  "palette": {
+    "neutral": [
+      "#F4F6FA",
+      "#D8E0EC",
+      "#B8C5D8"
+    ],
+    "blue": [
+      "#7BD4FF",
+      "#00A3FF",
+      "#1479C9"
+    ],
+    "purple": [
+      "#D7C6FF",
+      "#A58BEF",
+      "#7861BD"
+    ],
+    "teal": [
+      "#9FE8DA",
+      "#47C5B3",
+      "#269A90"
+    ],
+    "coral": [
+      "#FFC6B4",
+      "#F48C76",
+      "#D4655F"
+    ],
+    "ink": [
+      "#53627A",
+      "#36465E",
+      "#24344D"
+    ],
+    "white": [
+      "#FFFFFF",
+      "#F2F5FA",
+      "#DEE6EF"
+    ]
+  },
+  "icons": [
+    {
+      "collection": "systems",
+      "id": "agent",
+      "name": "AI Agent",
+      "category": "Agents & control",
+      "description": "An autonomous compute unit with a sensing port and an active decision core.",
+      "index": 1,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/agent.svg",
+        "two-tone": "icons/two-tone/agent.svg",
+        "duotone": "icons/duotone/agent.svg",
+        "fill": "icons/fill/agent.svg",
+        "color": "icons/color/agent.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "multi-agent",
+      "name": "Multi-Agent Swarm",
+      "category": "Agents & control",
+      "description": "Three peer compute nodes coordinate through a shared network junction.",
+      "index": 2,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/multi-agent.svg",
+        "two-tone": "icons/two-tone/multi-agent.svg",
+        "duotone": "icons/duotone/multi-agent.svg",
+        "fill": "icons/fill/multi-agent.svg",
+        "color": "icons/color/multi-agent.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "task",
+      "name": "Task Card",
+      "category": "Agents & control",
+      "description": "A dimensional task card with a completed item and a short work queue.",
+      "index": 3,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/task.svg",
+        "two-tone": "icons/two-tone/task.svg",
+        "duotone": "icons/duotone/task.svg",
+        "fill": "icons/fill/task.svg",
+        "color": "icons/color/task.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "goal",
+      "name": "Goal / Objective",
+      "category": "Agents & control",
+      "description": "A concentric objective dial with a precise marker reaching its center.",
+      "index": 4,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/goal.svg",
+        "two-tone": "icons/two-tone/goal.svg",
+        "duotone": "icons/duotone/goal.svg",
+        "fill": "icons/fill/goal.svg",
+        "color": "icons/color/goal.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "feedback-loop",
+      "name": "Feedback Loop",
+      "category": "Agents & control",
+      "description": "A circular feedback track around a stable system node.",
+      "index": 5,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/feedback-loop.svg",
+        "two-tone": "icons/two-tone/feedback-loop.svg",
+        "duotone": "icons/duotone/feedback-loop.svg",
+        "fill": "icons/fill/feedback-loop.svg",
+        "color": "icons/color/feedback-loop.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "recursive-loop",
+      "name": "Recursive Loop",
+      "category": "Agents & control",
+      "description": "Nested cycles repeat the same operation at two scales.",
+      "index": 6,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/recursive-loop.svg",
+        "two-tone": "icons/two-tone/recursive-loop.svg",
+        "duotone": "icons/duotone/recursive-loop.svg",
+        "fill": "icons/fill/recursive-loop.svg",
+        "color": "icons/color/recursive-loop.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "reflection",
+      "name": "Self-Reflection",
+      "category": "Agents & control",
+      "description": "A compute module faces a mirror containing its own geometric representation.",
+      "index": 7,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/reflection.svg",
+        "two-tone": "icons/two-tone/reflection.svg",
+        "duotone": "icons/duotone/reflection.svg",
+        "fill": "icons/fill/reflection.svg",
+        "color": "icons/color/reflection.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "llm",
+      "name": "Large Language Model",
+      "category": "Models & Learning",
+      "description": "A substantial three-layer model with a connected parameter lattice on its top face.",
+      "index": 8,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/llm.svg",
+        "two-tone": "icons/two-tone/llm.svg",
+        "duotone": "icons/duotone/llm.svg",
+        "fill": "icons/fill/llm.svg",
+        "color": "icons/color/llm.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "slm",
+      "name": "Small Language Model",
+      "category": "Models & Learning",
+      "description": "A compact single model module with a four-node parameter lattice.",
+      "index": 9,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/slm.svg",
+        "two-tone": "icons/two-tone/slm.svg",
+        "duotone": "icons/duotone/slm.svg",
+        "fill": "icons/fill/slm.svg",
+        "color": "icons/color/slm.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "local-model",
+      "name": "Local Model",
+      "category": "Models & Learning",
+      "description": "A laptop with a model chip embedded in its screen, representing on-device intelligence.",
+      "index": 10,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/local-model.svg",
+        "two-tone": "icons/two-tone/local-model.svg",
+        "duotone": "icons/duotone/local-model.svg",
+        "fill": "icons/fill/local-model.svg",
+        "color": "icons/color/local-model.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "training",
+      "name": "Model Training",
+      "category": "Models & Learning",
+      "description": "A three-channel tuning console whose sliders adjust model parameters.",
+      "index": 11,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/training.svg",
+        "two-tone": "icons/two-tone/training.svg",
+        "duotone": "icons/duotone/training.svg",
+        "fill": "icons/fill/training.svg",
+        "color": "icons/color/training.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "rsi",
+      "name": "Recursive Self-Improvement",
+      "category": "Models & Learning",
+      "description": "Three increasingly capable model blocks feed back through an elevated return loop.",
+      "index": 12,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/rsi.svg",
+        "two-tone": "icons/two-tone/rsi.svg",
+        "duotone": "icons/duotone/rsi.svg",
+        "fill": "icons/fill/rsi.svg",
+        "color": "icons/color/rsi.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "harness",
+      "name": "AI Harness",
+      "category": "Systems & Infrastructure",
+      "description": "A model core held within an open structural control frame.",
+      "index": 13,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/harness.svg",
+        "two-tone": "icons/two-tone/harness.svg",
+        "duotone": "icons/duotone/harness.svg",
+        "fill": "icons/fill/harness.svg",
+        "color": "icons/color/harness.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "rag",
+      "name": "Retrieval-Augmented Generation",
+      "category": "Systems & Infrastructure",
+      "description": "A knowledge store feeds retrieved context into a model, which emits a new result tile.",
+      "index": 14,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/rag.svg",
+        "two-tone": "icons/two-tone/rag.svg",
+        "duotone": "icons/duotone/rag.svg",
+        "fill": "icons/fill/rag.svg",
+        "color": "icons/color/rag.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "vector-database",
+      "name": "Vector Database",
+      "category": "Systems & Infrastructure",
+      "description": "Three database tiers hold a directional vector on their top surface.",
+      "index": 15,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/vector-database.svg",
+        "two-tone": "icons/two-tone/vector-database.svg",
+        "duotone": "icons/duotone/vector-database.svg",
+        "fill": "icons/fill/vector-database.svg",
+        "color": "icons/color/vector-database.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "tokens",
+      "name": "Tokenization",
+      "category": "Language & Context",
+      "description": "A continuous input splits into three discrete, individually colored token tiles.",
+      "index": 16,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/tokens.svg",
+        "two-tone": "icons/two-tone/tokens.svg",
+        "duotone": "icons/duotone/tokens.svg",
+        "fill": "icons/fill/tokens.svg",
+        "color": "icons/color/tokens.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "context-window",
+      "name": "Context Window",
+      "category": "Language & Context",
+      "description": "A finite open tray bounds a sequence of context tokens.",
+      "index": 17,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/context-window.svg",
+        "two-tone": "icons/two-tone/context-window.svg",
+        "duotone": "icons/duotone/context-window.svg",
+        "fill": "icons/fill/context-window.svg",
+        "color": "icons/color/context-window.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "reasoning",
+      "name": "Reasoning Path",
+      "category": "Intelligence",
+      "description": "A connected series of rising steps represents a structured reasoning trace.",
+      "index": 18,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/reasoning.svg",
+        "two-tone": "icons/two-tone/reasoning.svg",
+        "duotone": "icons/duotone/reasoning.svg",
+        "fill": "icons/fill/reasoning.svg",
+        "color": "icons/color/reasoning.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "tools",
+      "name": "Tool Use",
+      "category": "Systems",
+      "description": "A precise open-end wrench meets a processor, representing callable tools.",
+      "index": 19,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/tools.svg",
+        "two-tone": "icons/two-tone/tools.svg",
+        "duotone": "icons/duotone/tools.svg",
+        "fill": "icons/fill/tools.svg",
+        "color": "icons/color/tools.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "memory",
+      "name": "Long-term Memory",
+      "category": "Knowledge",
+      "description": "Three retained archive cartridges form a durable, indexed memory bank.",
+      "index": 20,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/memory.svg",
+        "two-tone": "icons/two-tone/memory.svg",
+        "duotone": "icons/duotone/memory.svg",
+        "fill": "icons/fill/memory.svg",
+        "color": "icons/color/memory.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "orchestration",
+      "name": "Workflow Engine",
+      "category": "Systems",
+      "description": "A central routing engine distributes work through three connected modules.",
+      "index": 21,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/orchestration.svg",
+        "two-tone": "icons/two-tone/orchestration.svg",
+        "duotone": "icons/duotone/orchestration.svg",
+        "fill": "icons/fill/orchestration.svg",
+        "color": "icons/color/orchestration.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "evaluation",
+      "name": "Evaluation",
+      "category": "Governance",
+      "description": "Ascending benchmark bars and a passing checkmark on a measurement display.",
+      "index": 22,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/evaluation.svg",
+        "two-tone": "icons/two-tone/evaluation.svg",
+        "duotone": "icons/duotone/evaluation.svg",
+        "fill": "icons/fill/evaluation.svg",
+        "color": "icons/color/evaluation.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "alignment",
+      "name": "Alignment & Safety",
+      "category": "Governance",
+      "description": "A thick protective shield with a verified center represents aligned boundaries.",
+      "index": 23,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/alignment.svg",
+        "two-tone": "icons/two-tone/alignment.svg",
+        "duotone": "icons/duotone/alignment.svg",
+        "fill": "icons/fill/alignment.svg",
+        "color": "icons/color/alignment.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "inference",
+      "name": "Inference",
+      "category": "Intelligence",
+      "description": "A processor emits one decisive energy bolt to symbolize generated output.",
+      "index": 24,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/inference.svg",
+        "two-tone": "icons/two-tone/inference.svg",
+        "duotone": "icons/duotone/inference.svg",
+        "fill": "icons/fill/inference.svg",
+        "color": "icons/color/inference.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "knowledge-graph",
+      "name": "Knowledge Graph",
+      "category": "Knowledge",
+      "description": "A central knowledge node connects distinct concepts across an open network.",
+      "index": 25,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/knowledge-graph.svg",
+        "two-tone": "icons/two-tone/knowledge-graph.svg",
+        "duotone": "icons/duotone/knowledge-graph.svg",
+        "fill": "icons/fill/knowledge-graph.svg",
+        "color": "icons/color/knowledge-graph.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "prompt",
+      "name": "Prompt Engineering",
+      "category": "Knowledge",
+      "description": "An isometric command terminal with an input caret and waiting cursor.",
+      "index": 26,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/prompt.svg",
+        "two-tone": "icons/two-tone/prompt.svg",
+        "duotone": "icons/duotone/prompt.svg",
+        "fill": "icons/fill/prompt.svg",
+        "color": "icons/color/prompt.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "self-play",
+      "name": "Self-Play",
+      "category": "Learning",
+      "description": "Two competing strategy nodes exchange moves around a shared game surface.",
+      "index": 27,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/self-play.svg",
+        "two-tone": "icons/two-tone/self-play.svg",
+        "duotone": "icons/duotone/self-play.svg",
+        "fill": "icons/fill/self-play.svg",
+        "color": "icons/color/self-play.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "asi-core",
+      "name": "Superintelligence Core",
+      "category": "Frontier systems",
+      "description": "A central crystalline compute core unifies four surrounding signal channels.",
+      "index": 28,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/asi-core.svg",
+        "two-tone": "icons/two-tone/asi-core.svg",
+        "duotone": "icons/duotone/asi-core.svg",
+        "fill": "icons/fill/asi-core.svg",
+        "color": "icons/color/asi-core.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "monitoring",
+      "name": "Monitoring / Observability",
+      "category": "Frontier systems",
+      "description": "An instrument screen combines a live signal trace with status indicators.",
+      "index": 29,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/monitoring.svg",
+        "two-tone": "icons/two-tone/monitoring.svg",
+        "duotone": "icons/duotone/monitoring.svg",
+        "fill": "icons/fill/monitoring.svg",
+        "color": "icons/color/monitoring.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "mixture-of-experts",
+      "name": "Mixture of Experts",
+      "category": "Frontier systems",
+      "description": "A router selects specialized expert modules through a branching signal bus.",
+      "index": 30,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/mixture-of-experts.svg",
+        "two-tone": "icons/two-tone/mixture-of-experts.svg",
+        "duotone": "icons/duotone/mixture-of-experts.svg",
+        "fill": "icons/fill/mixture-of-experts.svg",
+        "color": "icons/color/mixture-of-experts.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "distillation",
+      "name": "Model Distillation",
+      "category": "Frontier systems",
+      "description": "A broad teacher model is compressed through a tapered transfer stage into a smaller student.",
+      "index": 31,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/distillation.svg",
+        "two-tone": "icons/two-tone/distillation.svg",
+        "duotone": "icons/duotone/distillation.svg",
+        "fill": "icons/fill/distillation.svg",
+        "color": "icons/color/distillation.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "world-model",
+      "name": "World Model",
+      "category": "Frontier systems",
+      "description": "A small simulated environment contains terrain, structures, and a coordinate grid.",
+      "index": 32,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/world-model.svg",
+        "two-tone": "icons/two-tone/world-model.svg",
+        "duotone": "icons/duotone/world-model.svg",
+        "fill": "icons/fill/world-model.svg",
+        "color": "icons/color/world-model.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "mcp",
+      "name": "MCP / Tool Connector",
+      "category": "Agents & control",
+      "description": "A universal docking hub connects three distinct tool plugs through visible contact pins.",
+      "index": 33,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/mcp.svg",
+        "two-tone": "icons/two-tone/mcp.svg",
+        "duotone": "icons/duotone/mcp.svg",
+        "fill": "icons/fill/mcp.svg",
+        "color": "icons/color/mcp.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "skills",
+      "name": "Agent Skills",
+      "category": "Agents & control",
+      "description": "A reusable instruction cartridge slots into an agent chassis to add a capability.",
+      "index": 34,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/skills.svg",
+        "two-tone": "icons/two-tone/skills.svg",
+        "duotone": "icons/duotone/skills.svg",
+        "fill": "icons/fill/skills.svg",
+        "color": "icons/color/skills.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "computer-use",
+      "name": "Computer Use",
+      "category": "Agents & control",
+      "description": "An oversized pointer selects a control in a dimensional browser interface.",
+      "index": 35,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/computer-use.svg",
+        "two-tone": "icons/two-tone/computer-use.svg",
+        "duotone": "icons/duotone/computer-use.svg",
+        "fill": "icons/fill/computer-use.svg",
+        "color": "icons/color/computer-use.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "voice",
+      "name": "Realtime Voice",
+      "category": "Agents & control",
+      "description": "A microphone hub carries separate incoming and outgoing audio waveforms.",
+      "index": 36,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/voice.svg",
+        "two-tone": "icons/two-tone/voice.svg",
+        "duotone": "icons/duotone/voice.svg",
+        "fill": "icons/fill/voice.svg",
+        "color": "icons/color/voice.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "multimodal",
+      "name": "Multimodal",
+      "category": "Models & Learning",
+      "description": "Image, text, and audio cards converge into one shared model core.",
+      "index": 37,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/multimodal.svg",
+        "two-tone": "icons/two-tone/multimodal.svg",
+        "duotone": "icons/duotone/multimodal.svg",
+        "fill": "icons/fill/multimodal.svg",
+        "color": "icons/color/multimodal.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "human-approval",
+      "name": "Human Approval",
+      "category": "Agents & control",
+      "description": "A checkpoint gate opens only when its manual approval lever is engaged.",
+      "index": 38,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/human-approval.svg",
+        "two-tone": "icons/two-tone/human-approval.svg",
+        "duotone": "icons/duotone/human-approval.svg",
+        "fill": "icons/fill/human-approval.svg",
+        "color": "icons/color/human-approval.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "sandbox",
+      "name": "Agent Sandbox",
+      "category": "Systems & Infrastructure",
+      "description": "An isolated execution tray encloses a terminal inside a continuous raised boundary.",
+      "index": 39,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/sandbox.svg",
+        "two-tone": "icons/two-tone/sandbox.svg",
+        "duotone": "icons/duotone/sandbox.svg",
+        "fill": "icons/fill/sandbox.svg",
+        "color": "icons/color/sandbox.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "context-compaction",
+      "name": "Context Compaction",
+      "category": "Language & Context",
+      "description": "A mechanical press compresses a stack of context cards into a compact retained packet.",
+      "index": 40,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/context-compaction.svg",
+        "two-tone": "icons/two-tone/context-compaction.svg",
+        "duotone": "icons/duotone/context-compaction.svg",
+        "fill": "icons/fill/context-compaction.svg",
+        "color": "icons/color/context-compaction.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "model-routing",
+      "name": "Model Routing",
+      "category": "Runtime & operations",
+      "description": "A physical rail switch selects between two independently housed models of different sizes.",
+      "index": 41,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/model-routing.svg",
+        "two-tone": "icons/two-tone/model-routing.svg",
+        "duotone": "icons/duotone/model-routing.svg",
+        "fill": "icons/fill/model-routing.svg",
+        "color": "icons/color/model-routing.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "prompt-cache",
+      "name": "Prompt Cache",
+      "category": "Runtime & operations",
+      "description": "Stored prompt blocks connect to a shortcut track that bypasses repeated processing.",
+      "index": 42,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/prompt-cache.svg",
+        "two-tone": "icons/two-tone/prompt-cache.svg",
+        "duotone": "icons/duotone/prompt-cache.svg",
+        "fill": "icons/fill/prompt-cache.svg",
+        "color": "icons/color/prompt-cache.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "structured-output",
+      "name": "Structured Output",
+      "category": "Runtime & operations",
+      "description": "A schema tray accepts square, circular, and triangular outputs in matching fitted recesses.",
+      "index": 43,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/structured-output.svg",
+        "two-tone": "icons/two-tone/structured-output.svg",
+        "duotone": "icons/duotone/structured-output.svg",
+        "fill": "icons/fill/structured-output.svg",
+        "color": "icons/color/structured-output.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "citations",
+      "name": "Citations / Provenance",
+      "category": "Runtime & operations",
+      "description": "One answer document links to two distinct source documents through visible evidence connections.",
+      "index": 44,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/citations.svg",
+        "two-tone": "icons/two-tone/citations.svg",
+        "duotone": "icons/duotone/citations.svg",
+        "fill": "icons/fill/citations.svg",
+        "color": "icons/color/citations.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "token-budget",
+      "name": "Token Budget",
+      "category": "Runtime & operations",
+      "description": "A token stack sits beside a calibrated usage dial with a clear upper-limit marker.",
+      "index": 45,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/token-budget.svg",
+        "two-tone": "icons/two-tone/token-budget.svg",
+        "duotone": "icons/duotone/token-budget.svg",
+        "fill": "icons/fill/token-budget.svg",
+        "color": "icons/color/token-budget.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "permissions",
+      "name": "Agent Permissions",
+      "category": "Runtime & operations",
+      "description": "A scoped access keycard is presented to the reader of a controlled entry gate.",
+      "index": 46,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/permissions.svg",
+        "two-tone": "icons/two-tone/permissions.svg",
+        "duotone": "icons/duotone/permissions.svg",
+        "fill": "icons/fill/permissions.svg",
+        "color": "icons/color/permissions.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "a2a",
+      "name": "A2A / Agent Communication",
+      "category": "Runtime & operations",
+      "description": "Two independent agent stations exchange a task capsule over a bidirectional communication link.",
+      "index": 47,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/a2a.svg",
+        "two-tone": "icons/two-tone/a2a.svg",
+        "duotone": "icons/duotone/a2a.svg",
+        "fill": "icons/fill/a2a.svg",
+        "color": "icons/color/a2a.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "synthetic-data",
+      "name": "Synthetic Data",
+      "category": "Runtime & operations",
+      "description": "A seed example produces three new sample cards with distinct geometric contents.",
+      "index": 48,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/synthetic-data.svg",
+        "two-tone": "icons/two-tone/synthetic-data.svg",
+        "duotone": "icons/duotone/synthetic-data.svg",
+        "fill": "icons/fill/synthetic-data.svg",
+        "color": "icons/color/synthetic-data.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "hermes",
+      "name": "Hermes Agent",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Nous Research",
+        "productType": "Autonomous agent",
+        "website": "https://hermes-agent.nousresearch.com/",
+        "reference": "https://hermes-agent.nousresearch.com/",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://raw.githubusercontent.com/NousResearch/hermes-agent/main/assets/icon-master.svg",
+        "assetLicense": "MIT — Nous Research source; brand rights retained by Nous Research",
+        "assetNotes": "Original portrait paths from the official Hermes master icon; app tile and clipping wrapper removed, full portrait bounds fitted to the face."
+      },
+      "description": "The original Hermes portrait preserves the detailed bob, headband, and facial features.",
+      "tags": [
+        "nous",
+        "hermes agent",
+        "autonomous",
+        "open source"
+      ],
+      "index": 49,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/hermes.svg",
+        "two-tone": "icons/two-tone/hermes.svg",
+        "duotone": "icons/duotone/hermes.svg",
+        "fill": "icons/fill/hermes.svg",
+        "color": "icons/color/hermes.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "grok",
+      "name": "Grok Bot",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "xAI",
+        "productType": "AI agent",
+        "website": "https://x.ai/bot",
+        "reference": "https://x.ai/bot",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/grok.svg",
+        "assetLicense": "MIT — LobeHub vector source; brand rights retained by the respective owner",
+        "assetNotes": "Native compound logo path from Lobe Icons, checked against the official brand reference."
+      },
+      "description": "Grok’s original orbital silhouette and diagonal cut remain intact on an isometric tile.",
+      "tags": [
+        "grok",
+        "grok bot",
+        "xai",
+        "spacexai",
+        "spacexsi"
+      ],
+      "index": 50,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/grok.svg",
+        "two-tone": "icons/two-tone/grok.svg",
+        "duotone": "icons/duotone/grok.svg",
+        "fill": "icons/fill/grok.svg",
+        "color": "icons/color/grok.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "meta-muse",
+      "name": "Meta Muse",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Meta",
+        "productType": "Personal AI agent",
+        "website": "https://muse.ai/",
+        "reference": "https://muse.ai/",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://muse.ai/images/favicon/app-squiggle.svg",
+        "assetLicense": "Meta brand asset; trademark and artwork rights retained by Meta",
+        "assetNotes": "Original Muse squiggle path; blue gradient replaced with solid #0064E0 for the flat-vector set."
+      },
+      "description": "Muse’s flowing blue squiggle uses the original curves and proportions.",
+      "tags": [
+        "muse",
+        "meta",
+        "muse spark",
+        "personal agent"
+      ],
+      "index": 51,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/meta-muse.svg",
+        "two-tone": "icons/two-tone/meta-muse.svg",
+        "duotone": "icons/duotone/meta-muse.svg",
+        "fill": "icons/fill/meta-muse.svg",
+        "color": "icons/color/meta-muse.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "claude",
+      "name": "Claude",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Anthropic",
+        "productType": "AI assistant",
+        "website": "https://claude.com/",
+        "reference": "https://claude.com/",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/claude-color.svg",
+        "assetLicense": "MIT — LobeHub vector source; brand rights retained by the respective owner",
+        "assetNotes": "Native compound logo path from Lobe Icons, checked against the official brand reference."
+      },
+      "description": "Claude’s terracotta symbol retains its irregular rays and original outline.",
+      "tags": [
+        "anthropic",
+        "claude code",
+        "claude cowork",
+        "assistant"
+      ],
+      "index": 52,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/claude.svg",
+        "two-tone": "icons/two-tone/claude.svg",
+        "duotone": "icons/duotone/claude.svg",
+        "fill": "icons/fill/claude.svg",
+        "color": "icons/color/claude.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "openai",
+      "name": "OpenAI",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "OpenAI",
+        "productType": "AI platform",
+        "website": "https://openai.com/",
+        "reference": "https://openai.com/brand/",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/openai.svg",
+        "assetLicense": "MIT — LobeHub vector source; brand rights retained by the respective owner",
+        "assetNotes": "Native compound logo path from Lobe Icons, checked against the official brand reference."
+      },
+      "description": "The OpenAI blossom preserves its six interwoven loops and precise negative spaces.",
+      "tags": [
+        "chatgpt",
+        "gpt",
+        "codex",
+        "open ai",
+        "openai"
+      ],
+      "index": 53,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/openai.svg",
+        "two-tone": "icons/two-tone/openai.svg",
+        "duotone": "icons/duotone/openai.svg",
+        "fill": "icons/fill/openai.svg",
+        "color": "icons/color/openai.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "gemini",
+      "name": "Gemini",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Google",
+        "productType": "AI assistant and model family",
+        "website": "https://gemini.google.com/",
+        "reference": "https://design.google/library/gemini-ai-visual-design",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://www.gstatic.com/lamda/images/gemini_sparkle_aurora_33f86dc0c0257da337c63.svg",
+        "assetLicense": "Brand-owned asset; see the linked official brand reference for usage terms. Trademark rights remain with the respective owner.",
+        "assetName": "gemini_sparkle_aurora_33f86dc0c0257da337c63.svg",
+        "assetNotes": "Exact vector silhouette extracted from the official asset. Its raster/gradient interior is replaced by the source base blue #3186FF to retain flat, vector-only output."
+      },
+      "description": "Google’s original Gemini sparkle silhouette, rendered in flat source blue on an isometric tile.",
+      "tags": [
+        "Google",
+        "DeepMind",
+        "Gemini",
+        "Bard",
+        "multimodal"
+      ],
+      "index": 54,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/gemini.svg",
+        "two-tone": "icons/two-tone/gemini.svg",
+        "duotone": "icons/duotone/gemini.svg",
+        "fill": "icons/fill/gemini.svg",
+        "color": "icons/color/gemini.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "perplexity",
+      "name": "Perplexity",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Perplexity",
+        "productType": "AI answer engine",
+        "website": "https://www.perplexity.ai/",
+        "reference": "https://live.standards.site/perplexity/logo",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://firebasestorage.googleapis.com/v0/b/standards-site-beta.appspot.com/o/documents%2F6t12iheczyb%2F732776432bb%2FPerplexity-Primary-Symbol-TrueTurquoise.svg?alt=media&token=945c2f85-a3a6-4827-8723-3f20174392b9",
+        "assetLicense": "Brand-owned asset; see the linked official brand reference for usage terms. Trademark rights remain with the respective owner.",
+        "assetName": "Perplexity-Primary-Symbol-TrueTurquoise.svg",
+        "assetNotes": "Native paths, mitered strokes, and True Turquoise color from the official brand kit."
+      },
+      "description": "Perplexity’s official geometric symbol, with its precise intersecting strokes in True Turquoise.",
+      "tags": [
+        "Perplexity",
+        "answer engine",
+        "search",
+        "Comet",
+        "research"
+      ],
+      "index": 55,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/perplexity.svg",
+        "two-tone": "icons/two-tone/perplexity.svg",
+        "duotone": "icons/duotone/perplexity.svg",
+        "fill": "icons/fill/perplexity.svg",
+        "color": "icons/color/perplexity.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "mistral",
+      "name": "Mistral",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Mistral AI",
+        "productType": "AI model and agent platform",
+        "website": "https://mistral.ai/",
+        "reference": "https://mistral.ai/brand/",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://mistral.ai/cms-media/api/documents/file/Mistral_Logos_2026.zip",
+        "assetLicense": "Brand-owned asset; see the linked official brand reference for usage terms. Trademark rights remain with the respective owner.",
+        "assetName": "Mistral_Logos_2026/Icon/Gradient/RGB/SVG/Mistral-Icon-Gradient-RGB.svg",
+        "assetNotes": "Official 2026 pixel geometry and five solid color bands. Rectangles are converted losslessly to paths; artwork-only viewBox removes export padding."
+      },
+      "description": "Mistral’s official 2026 pixel cat, preserving the exact stepped silhouette and five warm color bands.",
+      "tags": [
+        "Mistral AI",
+        "Le Chat",
+        "Vibe",
+        "Codestral",
+        "open weights"
+      ],
+      "index": 56,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/mistral.svg",
+        "two-tone": "icons/two-tone/mistral.svg",
+        "duotone": "icons/duotone/mistral.svg",
+        "fill": "icons/fill/mistral.svg",
+        "color": "icons/color/mistral.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "copilot",
+      "name": "GitHub Copilot",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "GitHub",
+        "productType": "AI coding assistant",
+        "website": "https://github.com/features/copilot",
+        "reference": "https://primer.style/octicons/icon/copilot-24",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://raw.githubusercontent.com/primer/octicons/2f3d788e5357d908137436fefd349685692b30da/icons/copilot-24.svg",
+        "assetLicense": "MIT (Primer Octicons, copyright 2026 GitHub Inc.); GitHub trademarks remain with GitHub.",
+        "assetName": "copilot-24.svg",
+        "assetNotes": "Official Primer product UI mascot icon. GitHub no longer uses this mascot as the standalone marketing logo; product UI iconography retains it."
+      },
+      "description": "The official Primer Copilot product UI mascot, preserving its goggle openings and curved helmet.",
+      "tags": [
+        "GitHub",
+        "Copilot",
+        "coding assistant",
+        "pair programming",
+        "Primer",
+        "Octicons"
+      ],
+      "index": 57,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/copilot.svg",
+        "two-tone": "icons/two-tone/copilot.svg",
+        "duotone": "icons/duotone/copilot.svg",
+        "fill": "icons/fill/copilot.svg",
+        "color": "icons/color/copilot.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "cursor",
+      "name": "Cursor",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Anysphere",
+        "productType": "AI coding agent and editor",
+        "website": "https://cursor.com/",
+        "reference": "https://cursor.com/brand",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/brand/cursor-brand-assets.zip",
+        "assetLicense": "Brand-owned asset; see the linked official brand reference for usage terms. Trademark rights remain with the respective owner.",
+        "assetName": "General Logos/Cube/SVG/CUBE_2D_LIGHT.svg",
+        "assetNotes": "Official 2D cube with its original native compound path and cutout."
+      },
+      "description": "Cursor’s official 2D cube with its exact diagonal cutout and rounded outer corners.",
+      "tags": [
+        "Cursor",
+        "Anysphere",
+        "Composer",
+        "coding agent",
+        "editor"
+      ],
+      "index": 58,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/cursor.svg",
+        "two-tone": "icons/two-tone/cursor.svg",
+        "duotone": "icons/duotone/cursor.svg",
+        "fill": "icons/fill/cursor.svg",
+        "color": "icons/color/cursor.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "OpenClaw",
+        "productType": "Self-hosted AI assistant",
+        "website": "https://openclaw.ai/",
+        "reference": "https://openclaw.ai/",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://openclaw.ai/favicon.svg",
+        "assetLicense": "Brand-owned asset; see the linked official brand reference for usage terms. Trademark rights remain with the respective owner.",
+        "assetName": "favicon.svg",
+        "assetNotes": "Exact official lobster curves and antenna strokes. Gradient body is flattened to its original red stop #FF4D4D. Circles are converted losslessly to arc paths; monochrome styles retain white eye knockouts."
+      },
+      "description": "OpenClaw’s official red lobster, retaining the rounded claws, antennae, feet, and teal eyes.",
+      "tags": [
+        "OpenClaw",
+        "Clawdbot",
+        "Moltbot",
+        "lobster",
+        "local agent"
+      ],
+      "index": 59,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/openclaw.svg",
+        "two-tone": "icons/two-tone/openclaw.svg",
+        "duotone": "icons/duotone/openclaw.svg",
+        "fill": "icons/fill/openclaw.svg",
+        "color": "icons/color/openclaw.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "manus",
+      "name": "Manus",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Manus",
+        "productType": "General-purpose AI agent",
+        "website": "https://manus.im/",
+        "reference": "https://manus.im/brand",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://files.manuscdn.com/assets/image/brand/image/Manus-Glyph-Black.svg",
+        "assetLicense": "Brand-owned asset; see the linked official brand reference for usage terms. Trademark rights remain with the respective owner.",
+        "assetName": "Manus-Glyph-Black.svg",
+        "assetNotes": "Unmodified official hand glyph compound path, including original fill rule and interior details."
+      },
+      "description": "Manus’s original hand glyph, retaining the precise finger contours, cuff, and action marks.",
+      "tags": [
+        "Manus",
+        "Manus AI",
+        "general agent",
+        "hands on"
+      ],
+      "index": 60,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/manus.svg",
+        "two-tone": "icons/two-tone/manus.svg",
+        "duotone": "icons/duotone/manus.svg",
+        "fill": "icons/fill/manus.svg",
+        "color": "icons/color/manus.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "DeepSeek",
+        "productType": "AI assistant and model family",
+        "website": "https://www.deepseek.com/en/",
+        "reference": "https://www.deepseek.com/en/",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://www.deepseek.com/en/",
+        "assetLicense": "Official website asset; brand rights remain with DeepSeek.",
+        "assetNotes": "Whale path extracted from the official header; text lockup omitted."
+      },
+      "tags": [
+        "深度求索",
+        "DeepSeek Chat",
+        "DeepSeek Harness",
+        "Chinese AI"
+      ],
+      "description": "DeepSeek’s official whale silhouette, including the eye, belly cutout, and upturned tail.",
+      "index": 61,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/deepseek.svg",
+        "two-tone": "icons/two-tone/deepseek.svg",
+        "duotone": "icons/duotone/deepseek.svg",
+        "fill": "icons/fill/deepseek.svg",
+        "color": "icons/color/deepseek.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "qwen",
+      "name": "Qwen",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Alibaba Cloud",
+        "productType": "AI assistant and model family",
+        "website": "https://qwen.ai/",
+        "reference": "https://qwen.ai/",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png",
+        "assetLicense": "Official website asset; brand rights remain with Alibaba Cloud.",
+        "assetNotes": "Current official blue mark vector traced from transparent favicon; three original shapes retained."
+      },
+      "tags": [
+        "通义千问",
+        "Tongyi",
+        "Alibaba",
+        "Qwen Agent",
+        "Chinese AI"
+      ],
+      "description": "The current Qwen mark: three rounded blue ribbons arranged around a triangular opening.",
+      "index": 62,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/qwen.svg",
+        "two-tone": "icons/two-tone/qwen.svg",
+        "duotone": "icons/duotone/qwen.svg",
+        "fill": "icons/fill/qwen.svg",
+        "color": "icons/color/qwen.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "kimi",
+      "name": "Kimi",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Moonshot AI",
+        "productType": "AI assistant and agent platform",
+        "website": "https://www.kimi.com/",
+        "reference": "https://www.kimi.com/",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/kimi-color.svg",
+        "assetLicense": "MIT — Copyright (c) 2023 LobeHub; brand rights remain with Moonshot AI.",
+        "assetNotes": "Dark variant for a light carrier; K and blue apostrophe geometry preserved."
+      },
+      "tags": [
+        "月之暗面",
+        "Moonshot",
+        "Kimi Code",
+        "Kimi Agent",
+        "Chinese AI"
+      ],
+      "description": "Kimi’s precise black K and separate blue apostrophe, preserving the original contours.",
+      "index": 63,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/kimi.svg",
+        "two-tone": "icons/two-tone/kimi.svg",
+        "duotone": "icons/duotone/kimi.svg",
+        "fill": "icons/fill/kimi.svg",
+        "color": "icons/color/kimi.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "z-ai",
+      "name": "Z.ai / GLM",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Zhipu AI",
+        "productType": "AI assistant and GLM model family",
+        "website": "https://z.ai/",
+        "reference": "https://z.ai/",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+        "assetLicense": "Official website asset; brand rights remain with Z.ai / Zhipu.",
+        "assetNotes": "White Z paths from app icon rendered dark on the shared light carrier."
+      },
+      "tags": [
+        "智谱",
+        "智谱清言",
+        "Zhipu",
+        "ChatGLM",
+        "GLM",
+        "AutoGLM",
+        "Chinese AI"
+      ],
+      "description": "The official Z.ai mark with its broad diagonal and detached horizontal strokes.",
+      "index": 64,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/z-ai.svg",
+        "two-tone": "icons/two-tone/z-ai.svg",
+        "duotone": "icons/duotone/z-ai.svg",
+        "fill": "icons/fill/z-ai.svg",
+        "color": "icons/color/z-ai.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "minimax",
+      "name": "MiniMax",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "MiniMax",
+        "productType": "Multimodal models and agent platform",
+        "website": "https://www.minimax.io/",
+        "reference": "https://www.minimax.io/",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/minimax-color.svg",
+        "assetLicense": "MIT — Copyright (c) 2023 LobeHub; brand rights remain with MiniMax.",
+        "assetNotes": "Exact waveform geometry; gradient replaced with a single coral brand tone."
+      },
+      "tags": [
+        "稀宇科技",
+        "MiniMax Code",
+        "MiniMax Agent",
+        "MiniMax Audio",
+        "Chinese AI"
+      ],
+      "description": "MiniMax’s original interleaving waveform in a flat coral brand tone.",
+      "index": 65,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/minimax.svg",
+        "two-tone": "icons/two-tone/minimax.svg",
+        "duotone": "icons/duotone/minimax.svg",
+        "fill": "icons/fill/minimax.svg",
+        "color": "icons/color/minimax.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "doubao",
+      "name": "Doubao",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "ByteDance",
+        "productType": "AI assistant",
+        "website": "https://www.doubao.com/",
+        "reference": "https://www.doubao.com/",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/doubao_avatar.png",
+        "assetLicense": "Official website asset; brand rights remain with ByteDance.",
+        "assetNotes": "Vector trace of official assistant portrait; flat color regions replace raster shading. Grayscale regions preserve facial features in monochrome variants."
+      },
+      "tags": [
+        "豆包",
+        "ByteDance Seed",
+        "字节跳动",
+        "Chinese AI"
+      ],
+      "description": "Doubao’s official assistant portrait, vector traced with the original bob haircut, facial features, and blue circle.",
+      "index": 66,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/doubao.svg",
+        "two-tone": "icons/two-tone/doubao.svg",
+        "duotone": "icons/duotone/doubao.svg",
+        "fill": "icons/fill/doubao.svg",
+        "color": "icons/color/doubao.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "ernie",
+      "name": "ERNIE",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Baidu",
+        "productType": "AI assistant and model family",
+        "website": "https://ernie.baidu.com/",
+        "reference": "https://ernie.baidu.com/",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/wenxin-color.svg",
+        "assetLicense": "MIT — Copyright (c) 2023 LobeHub; brand rights remain with Baidu.",
+        "assetNotes": "Exact ERNIE / Wenxin cube paths; gradient replaced with blue spot color."
+      },
+      "tags": [
+        "文心一言",
+        "文心",
+        "Baidu",
+        "百度",
+        "ERNIE Bot",
+        "Chinese AI"
+      ],
+      "description": "The ERNIE / Wenxin cube mark with its original open geometry and central pillar.",
+      "index": 67,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/ernie.svg",
+        "two-tone": "icons/two-tone/ernie.svg",
+        "duotone": "icons/duotone/ernie.svg",
+        "fill": "icons/fill/ernie.svg",
+        "color": "icons/color/ernie.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "hunyuan",
+      "name": "Tencent Hunyuan",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Tencent",
+        "productType": "Multimodal model family",
+        "website": "https://hunyuan.tencent.com/",
+        "reference": "https://hunyuan.tencent.com/",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://hunyuan-blog-web-prod-1258344703.cos.ap-guangzhou.myqcloud.com/logo.svg",
+        "assetLicense": "Official color asset (Tencent); monochrome geometry MIT — Copyright (c) 2023 LobeHub. Brand rights remain with Tencent.",
+        "assetNotes": "Official circular mark with mask flattened. Monochrome variant uses corresponding LobeHub mark to preserve internal cutouts."
+      },
+      "tags": [
+        "腾讯混元",
+        "混元",
+        "Tencent Hy",
+        "Hy",
+        "Hunyuan",
+        "Chinese AI"
+      ],
+      "description": "Tencent Hunyuan’s official circular blue mark with interlocking curved forms.",
+      "index": 68,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/hunyuan.svg",
+        "two-tone": "icons/two-tone/hunyuan.svg",
+        "duotone": "icons/duotone/hunyuan.svg",
+        "fill": "icons/fill/hunyuan.svg",
+        "color": "icons/color/hunyuan.svg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "source": "https://www.deepseek.com/en/",
+    "reference": "https://www.deepseek.com/en/",
+    "license": "Official website asset; brand rights remain with DeepSeek.",
+    "assetName": "deepseek-official.svg",
+    "notes": "Whale path extracted from the official header; text lockup omitted.",
+    "id": "deepseek"
+  },
+  {
+    "source": "https://img.alicdn.com/imgextra/i4/O1CN01OXv3EM1FN8t9W4P79_!!6000000000474-2-tps-80-80.png",
+    "reference": "https://qwen.ai/",
+    "license": "Official website asset; brand rights remain with Alibaba Cloud.",
+    "assetName": "qwen-official.png",
+    "notes": "Current official blue mark vector traced from transparent favicon; three original shapes retained.",
+    "id": "qwen"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/kimi-color.svg",
+    "reference": "https://www.kimi.com/",
+    "license": "MIT — Copyright (c) 2023 LobeHub; brand rights remain with Moonshot AI.",
+    "assetName": "kimi-lobehub.svg",
+    "notes": "Dark variant for a light carrier; K and blue apostrophe geometry preserved.",
+    "id": "kimi"
+  },
+  {
+    "source": "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+    "reference": "https://z.ai/",
+    "license": "Official website asset; brand rights remain with Z.ai / Zhipu.",
+    "assetName": "z-ai-official.svg",
+    "notes": "White Z paths from app icon rendered dark on the shared light carrier.",
+    "id": "z-ai"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/minimax-color.svg",
+    "reference": "https://www.minimax.io/",
+    "license": "MIT — Copyright (c) 2023 LobeHub; brand rights remain with MiniMax.",
+    "assetName": "minimax-lobehub.svg",
+    "notes": "Exact waveform geometry; gradient replaced with a single coral brand tone.",
+    "id": "minimax"
+  },
+  {
+    "source": "https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/doubao_avatar.png",
+    "reference": "https://www.doubao.com/",
+    "license": "Official website asset; brand rights remain with ByteDance.",
+    "assetName": "doubao-official.png",
+    "notes": "Vector trace of official assistant portrait; flat color regions replace raster shading. Grayscale regions preserve facial features in monochrome variants.",
+    "id": "doubao"
+  },
+  {
+    "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/wenxin-color.svg",
+    "reference": "https://ernie.baidu.com/",
+    "license": "MIT — Copyright (c) 2023 LobeHub; brand rights remain with Baidu.",
+    "assetName": "ernie-lobehub.svg",
+    "notes": "Exact ERNIE / Wenxin cube paths; gradient replaced with blue spot color.",
+    "id": "ernie"
+  },
+  {
+    "source": "https://hunyuan-blog-web-prod-1258344703.cos.ap-guangzhou.myqcloud.com/logo.svg",
+    "reference": "https://hunyuan.tencent.com/",
+    "license": "Official color asset (Tencent); monochrome geometry MIT — Copyright (c) 2023 LobeHub. Brand rights remain with Tencent.",
+    "assetName": "hunyuan-official.svg",
+    "notes": "Official circular mark with mask flattened. Monochrome variant uses corresponding LobeHub mark to preserve internal cutouts.",
+    "id": "hunyuan"
+  }
+]
