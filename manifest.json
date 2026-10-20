@@ -1,9 +1,9 @@
 {
   "name": "SuperIntelligence — AI Systems",
-  "version": "1.6.2",
-  "count": 75,
+  "version": "1.7.0",
+  "count": 92,
   "collections": {
-    "systems": 49,
+    "systems": 66,
     "brands": 26
   },
   "styles": [
@@ -1722,6 +1722,431 @@
         "duotone": "icons/duotone/dataset.svg",
         "fill": "icons/fill/dataset.svg",
         "color": "icons/color/dataset.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "explore",
+      "name": "Explore",
+      "category": "Spec-driven development",
+      "description": "A magnifying lens follows a route across a folded map to investigate a codebase before proposing changes.",
+      "tags": [
+        "OpenSpec",
+        "/opsx:explore",
+        "investigate",
+        "codebase",
+        "discovery",
+        "problem space"
+      ],
+      "index": 76,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/explore.svg",
+        "two-tone": "icons/two-tone/explore.svg",
+        "duotone": "icons/duotone/explore.svg",
+        "fill": "icons/fill/explore.svg",
+        "color": "icons/color/explore.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "propose",
+      "name": "Propose",
+      "category": "Spec-driven development",
+      "description": "A drafting pencil adds a structured change proposal to a dimensional blueprint.",
+      "tags": [
+        "OpenSpec",
+        "/opsx:propose",
+        "proposal",
+        "specification",
+        "design",
+        "tasks",
+        "blueprint"
+      ],
+      "index": 77,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/propose.svg",
+        "two-tone": "icons/two-tone/propose.svg",
+        "duotone": "icons/duotone/propose.svg",
+        "fill": "icons/fill/propose.svg",
+        "color": "icons/color/propose.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "apply",
+      "name": "Apply",
+      "category": "Spec-driven development",
+      "description": "A specification guides a module into its matching implementation socket.",
+      "tags": [
+        "OpenSpec",
+        "/opsx:apply",
+        "implement",
+        "implementation",
+        "spec tasks",
+        "install"
+      ],
+      "index": 78,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/apply.svg",
+        "two-tone": "icons/two-tone/apply.svg",
+        "duotone": "icons/duotone/apply.svg",
+        "fill": "icons/fill/apply.svg",
+        "color": "icons/color/apply.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "verify",
+      "name": "Verify",
+      "category": "Spec-driven development",
+      "description": "A specification sheet receives a large conformance stamp after its implementation is checked.",
+      "tags": [
+        "OpenSpec",
+        "/opsx:verify",
+        "validation",
+        "conformance",
+        "specification",
+        "check"
+      ],
+      "index": 79,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/verify.svg",
+        "two-tone": "icons/two-tone/verify.svg",
+        "duotone": "icons/duotone/verify.svg",
+        "fill": "icons/fill/verify.svg",
+        "color": "icons/color/verify.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "archive",
+      "name": "Archive",
+      "category": "Spec-driven development",
+      "description": "A completed change folder is filed in a deep archive tray with a visible approval mark.",
+      "tags": [
+        "OpenSpec",
+        "/opsx:archive",
+        "completed change",
+        "file",
+        "retire",
+        "history"
+      ],
+      "index": 80,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/archive.svg",
+        "two-tone": "icons/two-tone/archive.svg",
+        "duotone": "icons/duotone/archive.svg",
+        "fill": "icons/fill/archive.svg",
+        "color": "icons/color/archive.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "agents-md",
+      "name": "AGENTS.md",
+      "category": "Agent configuration",
+      "description": "A folded Markdown instruction file with a geometric A and a native vector .md extension.",
+      "tags": [
+        "AGENTS.md",
+        "agents md",
+        "agent instructions",
+        "repository instructions",
+        "Markdown",
+        "configuration"
+      ],
+      "index": 81,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/agents-md.svg",
+        "two-tone": "icons/two-tone/agents-md.svg",
+        "duotone": "icons/duotone/agents-md.svg",
+        "fill": "icons/fill/agents-md.svg",
+        "color": "icons/color/agents-md.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "claude-md",
+      "name": "CLAUDE.md",
+      "category": "Agent configuration",
+      "description": "A folded Markdown instruction file with a geometric C and a native vector .md extension.",
+      "tags": [
+        "CLAUDE.md",
+        "claude md",
+        "Claude Code",
+        "project instructions",
+        "Markdown",
+        "configuration"
+      ],
+      "index": 82,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/claude-md.svg",
+        "two-tone": "icons/two-tone/claude-md.svg",
+        "duotone": "icons/duotone/claude-md.svg",
+        "fill": "icons/fill/claude-md.svg",
+        "color": "icons/color/claude-md.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "hooks",
+      "name": "Hooks",
+      "category": "Agent configuration",
+      "description": "An event pulse activates a raised relay arm that connects to a waiting action contact.",
+      "tags": [
+        "hooks",
+        "event hook",
+        "event trigger",
+        "lifecycle",
+        "callback",
+        "automation"
+      ],
+      "index": 83,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/hooks.svg",
+        "two-tone": "icons/two-tone/hooks.svg",
+        "duotone": "icons/duotone/hooks.svg",
+        "fill": "icons/fill/hooks.svg",
+        "color": "icons/color/hooks.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "commands",
+      "name": "Commands",
+      "category": "Agent configuration",
+      "description": "A slash-command terminal pairs a short executable instruction with a dedicated slash key.",
+      "tags": [
+        "commands",
+        "slash commands",
+        "custom commands",
+        "CLI",
+        "terminal",
+        "command palette"
+      ],
+      "index": 84,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/commands.svg",
+        "two-tone": "icons/two-tone/commands.svg",
+        "duotone": "icons/duotone/commands.svg",
+        "fill": "icons/fill/commands.svg",
+        "color": "icons/color/commands.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "skill-bundle",
+      "name": "Skill Bundle",
+      "category": "Agent configuration",
+      "description": "Three instruction cartridges share a single holder and a common connector bus.",
+      "tags": [
+        "skill bundle",
+        "bundle skills",
+        "skills bundle",
+        "skill pack",
+        "agent skills",
+        "reusable capabilities"
+      ],
+      "index": 85,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/skill-bundle.svg",
+        "two-tone": "icons/two-tone/skill-bundle.svg",
+        "duotone": "icons/duotone/skill-bundle.svg",
+        "fill": "icons/fill/skill-bundle.svg",
+        "color": "icons/color/skill-bundle.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "reason",
+      "name": "Reason",
+      "category": "Agent loop",
+      "description": "Two evidence nodes converge through a diamond-shaped deduction junction into one conclusion module.",
+      "tags": [
+        "AI agent loop",
+        "reason",
+        "reasoning",
+        "deduction",
+        "evidence",
+        "decision",
+        "stage 1"
+      ],
+      "index": 86,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/reason.svg",
+        "two-tone": "icons/two-tone/reason.svg",
+        "duotone": "icons/duotone/reason.svg",
+        "fill": "icons/fill/reason.svg",
+        "color": "icons/color/reason.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "plan",
+      "name": "Plan",
+      "category": "Agent loop",
+      "description": "A route map orders three checkpoints and a destination into an explicit sequence of actions.",
+      "tags": [
+        "AI agent loop",
+        "plan",
+        "planning",
+        "route",
+        "steps",
+        "sequence",
+        "stage 2"
+      ],
+      "index": 87,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/plan.svg",
+        "two-tone": "icons/two-tone/plan.svg",
+        "duotone": "icons/duotone/plan.svg",
+        "fill": "icons/fill/plan.svg",
+        "color": "icons/color/plan.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "act",
+      "name": "Act",
+      "category": "Agent loop",
+      "description": "A mechanical actuator presses an action switch, turning a planned instruction into a physical operation.",
+      "tags": [
+        "AI agent loop",
+        "act",
+        "action",
+        "execute",
+        "actuator",
+        "tool execution",
+        "stage 3"
+      ],
+      "index": 88,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/act.svg",
+        "two-tone": "icons/two-tone/act.svg",
+        "duotone": "icons/duotone/act.svg",
+        "fill": "icons/fill/act.svg",
+        "color": "icons/color/act.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "observe",
+      "name": "Observe",
+      "category": "Agent loop",
+      "description": "An optical sensing head focuses its pupil on a sample positioned in the observation tray.",
+      "tags": [
+        "AI agent loop",
+        "observe",
+        "observation",
+        "sensor",
+        "perception",
+        "feedback",
+        "stage 4"
+      ],
+      "index": 89,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/observe.svg",
+        "two-tone": "icons/two-tone/observe.svg",
+        "duotone": "icons/duotone/observe.svg",
+        "fill": "icons/fill/observe.svg",
+        "color": "icons/color/observe.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "evaluate",
+      "name": "Evaluate",
+      "category": "Agent loop",
+      "description": "A threshold instrument compares the observed result against a marked acceptance range and records a passing check.",
+      "tags": [
+        "AI agent loop",
+        "evaluate",
+        "evaluation",
+        "threshold",
+        "acceptance",
+        "quality",
+        "stage 5"
+      ],
+      "index": 90,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/evaluate.svg",
+        "two-tone": "icons/two-tone/evaluate.svg",
+        "duotone": "icons/duotone/evaluate.svg",
+        "fill": "icons/fill/evaluate.svg",
+        "color": "icons/color/evaluate.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "repeat",
+      "name": "Repeat",
+      "category": "Agent loop",
+      "description": "A return conveyor carries the output capsule back to the beginning for another iteration.",
+      "tags": [
+        "AI agent loop",
+        "repeat",
+        "iteration",
+        "return",
+        "next cycle",
+        "stage 6"
+      ],
+      "index": 91,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/repeat.svg",
+        "two-tone": "icons/two-tone/repeat.svg",
+        "duotone": "icons/duotone/repeat.svg",
+        "fill": "icons/fill/repeat.svg",
+        "color": "icons/color/repeat.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "agent-loop",
+      "name": "AI Agent Loop",
+      "category": "Agent loop",
+      "description": "Six connected stations cycle around an agent core in order: Reason → Plan → Act → Observe → Evaluate → Repeat.",
+      "tags": [
+        "AI agent loop",
+        "Reason → Plan → Act → Observe → Evaluate → Repeat",
+        "autonomous cycle",
+        "reason",
+        "plan",
+        "act",
+        "observe",
+        "evaluate",
+        "repeat"
+      ],
+      "stages": [
+        "Reason",
+        "Plan",
+        "Act",
+        "Observe",
+        "Evaluate",
+        "Repeat"
+      ],
+      "index": 92,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/agent-loop.svg",
+        "two-tone": "icons/two-tone/agent-loop.svg",
+        "duotone": "icons/duotone/agent-loop.svg",
+        "fill": "icons/fill/agent-loop.svg",
+        "color": "icons/color/agent-loop.svg"
       }
     }
   ]

@@ -10,13 +10,13 @@
 
 Isometric icons for the systems AI teams build and the agents, platforms, and developer environments they use. From MCP, RAG, and orchestration to Hermes, Claude, OpenAI, Hugging Face, NVIDIA, Kaggle, Unsloth, Runpod, and Omarchy, give your dashboard, documentation, or developer tool one consistent visual language.
 
-**75 icons · 5 styles · 375 SVGs**
+**92 icons · 5 styles · 460 SVGs**
 
 <!-- style-navigation:start -->
 **Browse styles:** [Stroke](README-stroke.md) · [Two-tone](README-two-tone.md) · [Duotone](README-duotone.md) · [Fill](README-fill.md) · [**Color**](README.md)
 <!-- style-navigation:end -->
 
-[Agents & platforms](#agents--platforms) · [AI systems](#ai-systems) · [Choose a style](#five-styles-one-system) · [Get started](#get-started) · [License](LICENSE)
+[Agents & platforms](#agents--platforms) · [AI systems](#ai-systems) · [OpenSpec](#openspec-workflow) · [Agent loop](#ai-agent-loop) · [Choose a style](#five-styles-one-system) · [Get started](#get-started) · [License](LICENSE)
 
 <p align="center">
   <a href="icons/color/hermes.svg"><img src="icons/color/hermes.svg" width="112" height="112" alt="Hermes Agent"></a>
@@ -28,7 +28,7 @@ Isometric icons for the systems AI teams build and the agents, platforms, and de
 
 ## Built for teams shipping AI
 
-- **Systems and the tools behind them.** 49 AI concepts plus 26 agents, platforms, and developer environments, including Chinese model providers. Dedicated icons for agent swarms, MCP, computer use, human approval, and model architectures.
+- **Systems and the tools behind them.** 66 AI concepts plus 26 agents, platforms, and developer environments, including Chinese model providers. Dedicated icons for agent swarms, MCP, computer use, human approval, and model architectures.
 - **One coherent system.** The same isometric camera, rounded geometry, proportions, and lighting across the collection.
 - **Ready for your stack.** Standalone SVG files with transparent backgrounds and no runtime dependencies. Use them in HTML, React, Vue, design tools, or technical docs.
 - **Editable, reproducible source.** MIT licensed system icons and presentation code, with source references for the brand marks.
@@ -44,7 +44,7 @@ Choose a visual treatment without changing the icon's meaning. Every icon is ava
 
 ## The collection
 
-All 75 icons, shown in Color. Click any icon or filename to open its SVG.
+All 92 icons, shown in Color. Click any icon or filename to open its SVG.
 
 <!-- style-navigation:start -->
 **Browse styles:** [Stroke](README-stroke.md) · [Two-tone](README-two-tone.md) · [Duotone](README-duotone.md) · [Fill](README-fill.md) · [**Color**](README.md)
@@ -211,7 +211,7 @@ These are unofficial adaptations. Names and marks belong to their respective own
 
 ### AI systems
 
-49 concepts for interfaces, architecture diagrams, and developer documentation.
+66 concepts for interfaces, architecture diagrams, and developer documentation.
 
 
 <table>
@@ -493,6 +493,145 @@ These are unofficial adaptations. Names and marks belong to their respective own
   </tbody>
 </table>
 
+#### OpenSpec workflow
+
+Original concept icons for the [OpenSpec workflow](https://openspec.dev/): explore the problem, propose a change, apply its tasks, verify the implementation, and archive the completed work. Search the preview for `OpenSpec` or the corresponding `/opsx:` command.
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center" width="25%">
+        <a href="icons/color/explore.svg"><img src="icons/color/explore.svg" width="112" height="112" alt="Explore"></a><br>
+        <strong>Explore</strong><br>
+        <sub><a href="icons/color/explore.svg">explore.svg</a></sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="icons/color/propose.svg"><img src="icons/color/propose.svg" width="112" height="112" alt="Propose"></a><br>
+        <strong>Propose</strong><br>
+        <sub><a href="icons/color/propose.svg">propose.svg</a></sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="icons/color/apply.svg"><img src="icons/color/apply.svg" width="112" height="112" alt="Apply"></a><br>
+        <strong>Apply</strong><br>
+        <sub><a href="icons/color/apply.svg">apply.svg</a></sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="icons/color/verify.svg"><img src="icons/color/verify.svg" width="112" height="112" alt="Verify"></a><br>
+        <strong>Verify</strong><br>
+        <sub><a href="icons/color/verify.svg">verify.svg</a></sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="25%">
+        <a href="icons/color/archive.svg"><img src="icons/color/archive.svg" width="112" height="112" alt="Archive"></a><br>
+        <strong>Archive</strong><br>
+        <sub><a href="icons/color/archive.svg">archive.svg</a></sub>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+#### Agent configuration
+
+Instruction files, event hooks, executable commands, and bundled skills. The file icons use original letterforms to distinguish [AGENTS.md](https://agents.md/) and [CLAUDE.md](https://code.claude.com/docs/en/memory).
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center" width="25%">
+        <a href="icons/color/agents-md.svg"><img src="icons/color/agents-md.svg" width="112" height="112" alt="AGENTS.md"></a><br>
+        <strong>AGENTS.md</strong><br>
+        <sub><a href="icons/color/agents-md.svg">agents-md.svg</a></sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="icons/color/claude-md.svg"><img src="icons/color/claude-md.svg" width="112" height="112" alt="CLAUDE.md"></a><br>
+        <strong>CLAUDE.md</strong><br>
+        <sub><a href="icons/color/claude-md.svg">claude-md.svg</a></sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="icons/color/hooks.svg"><img src="icons/color/hooks.svg" width="112" height="112" alt="Hooks"></a><br>
+        <strong>Hooks</strong><br>
+        <sub><a href="icons/color/hooks.svg">hooks.svg</a></sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="icons/color/commands.svg"><img src="icons/color/commands.svg" width="112" height="112" alt="Commands"></a><br>
+        <strong>Commands</strong><br>
+        <sub><a href="icons/color/commands.svg">commands.svg</a></sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="25%">
+        <a href="icons/color/skill-bundle.svg"><img src="icons/color/skill-bundle.svg" width="112" height="112" alt="Skill Bundle"></a><br>
+        <strong>Skill Bundle</strong><br>
+        <sub><a href="icons/color/skill-bundle.svg">skill-bundle.svg</a></sub>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+#### AI Agent Loop
+
+**Reason → Plan → Act → Observe → Evaluate → Repeat**
+
+Use the six stage icons individually, or `agent-loop.svg` for the complete cycle. The labeled diagram shows how to combine them in documentation.
+
+<table>
+  <tbody>
+    <tr>
+      <td align="center" width="25%">
+        <a href="icons/color/reason.svg"><img src="icons/color/reason.svg" width="112" height="112" alt="Reason"></a><br>
+        <strong>Reason</strong><br>
+        <sub><a href="icons/color/reason.svg">reason.svg</a></sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="icons/color/plan.svg"><img src="icons/color/plan.svg" width="112" height="112" alt="Plan"></a><br>
+        <strong>Plan</strong><br>
+        <sub><a href="icons/color/plan.svg">plan.svg</a></sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="icons/color/act.svg"><img src="icons/color/act.svg" width="112" height="112" alt="Act"></a><br>
+        <strong>Act</strong><br>
+        <sub><a href="icons/color/act.svg">act.svg</a></sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="icons/color/observe.svg"><img src="icons/color/observe.svg" width="112" height="112" alt="Observe"></a><br>
+        <strong>Observe</strong><br>
+        <sub><a href="icons/color/observe.svg">observe.svg</a></sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="25%">
+        <a href="icons/color/evaluate.svg"><img src="icons/color/evaluate.svg" width="112" height="112" alt="Evaluate"></a><br>
+        <strong>Evaluate</strong><br>
+        <sub><a href="icons/color/evaluate.svg">evaluate.svg</a></sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="icons/color/repeat.svg"><img src="icons/color/repeat.svg" width="112" height="112" alt="Repeat"></a><br>
+        <strong>Repeat</strong><br>
+        <sub><a href="icons/color/repeat.svg">repeat.svg</a></sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="icons/color/agent-loop.svg"><img src="icons/color/agent-loop.svg" width="112" height="112" alt="AI Agent Loop"></a><br>
+        <strong>AI Agent Loop</strong><br>
+        <sub><a href="icons/color/agent-loop.svg">agent-loop.svg</a></sub>
+      </td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+![AI Agent Loop: Reason, Plan, Act, Observe, Evaluate, Repeat, then return to Reason.](examples/diagrams/color/agent-loop.svg)
+
+```markdown
+![AI Agent Loop](examples/diagrams/color/agent-loop.svg)
+```
+
 [View the complete collection contact sheet](previews/color-contact-sheet.png)
 
 ## Get started
@@ -598,12 +737,12 @@ Stroke weights scale with the viewBox. Stroke uses white faces to hide rear geom
 
 | Path | Contents |
 | --- | --- |
-| [icons/](icons/) | 375 SVGs organized into five style folders |
+| [icons/](icons/) | 460 SVGs organized into five style folders |
 | [brand/](brand/) | SuperIntelligence wordmark and neon octopus, with light, dark, and monochrome SVGs |
 | [README.md](README.md) and `README-{style}.md` | Complete, cross-linked galleries for each of the five styles |
 | [index.html](index.html) | Standalone offline preview and exporter |
 | [previews/](previews/) | SVG and PNG sheets of the complete collection |
-| [examples/diagrams/](examples/diagrams/) | Ready-to-embed agent workflow diagrams in all five styles |
+| [examples/diagrams/](examples/diagrams/) | Ready-to-embed agent workflow and six-stage loop diagrams in all five styles |
 | [manifest.json](manifest.json) | Names, descriptions, collections, product metadata, palette, camera, and asset paths |
 | [BRAND-REFERENCES.md](BRAND-REFERENCES.md) | Product references, vector sources, and artwork terms for the 26 agents, platforms, and developer environments |
 | [motion.css](motion.css) | Optional hover and focus motion |
@@ -616,11 +755,11 @@ Requires Node.js 20.10+ and Python 3. No `npm install` is needed.
 
 ```sh
 npm run build   # Regenerate icons, diagrams, SVG sheets, manifest, preview, and style READMEs
-npm run check   # Validate all 375 SVGs
+npm run check   # Validate all 460 SVGs
 npm run pack    # Create superintelligence-icons.zip
 ```
 
-Edit the system geometry in [icons-core.mjs](src/icons-core.mjs), [icons-models.mjs](src/icons-models.mjs), [icons-systems.mjs](src/icons-systems.mjs), [icons-capabilities.mjs](src/icons-capabilities.mjs), [icons-operations.mjs](src/icons-operations.mjs), or [icons-data.mjs](src/icons-data.mjs). Named products live in [icons-brands-featured.mjs](src/icons-brands-featured.mjs), [icons-brands-global.mjs](src/icons-brands-global.mjs), [icons-brands-china.mjs](src/icons-brands-china.mjs), and [icons-brands-ecosystem.mjs](src/icons-brands-ecosystem.mjs), with shared geometry in [brand-kit.mjs](src/brand-kit.mjs).
+Edit the system geometry in [icons-core.mjs](src/icons-core.mjs), [icons-models.mjs](src/icons-models.mjs), [icons-systems.mjs](src/icons-systems.mjs), [icons-capabilities.mjs](src/icons-capabilities.mjs), [icons-operations.mjs](src/icons-operations.mjs), [icons-data.mjs](src/icons-data.mjs), [icons-spec-workflow.mjs](src/icons-spec-workflow.mjs), [icons-agent-config.mjs](src/icons-agent-config.mjs), or [icons-agent-loop.mjs](src/icons-agent-loop.mjs). Named products live in [icons-brands-featured.mjs](src/icons-brands-featured.mjs), [icons-brands-global.mjs](src/icons-brands-global.mjs), [icons-brands-china.mjs](src/icons-brands-china.mjs), and [icons-brands-ecosystem.mjs](src/icons-brands-ecosystem.mjs), with shared geometry in [brand-kit.mjs](src/brand-kit.mjs).
 
 Change materials and style mapping in [scene.mjs](src/scene.mjs). Edit source modules rather than generated files to preserve your changes across builds.
 
@@ -632,7 +771,7 @@ The included PNG sheets are snapshots of the delivered version. You can also ser
 
 ## License and credits
 
-The 49 original AI system icons and the package's original source and isometric presentation are available under the [MIT license](LICENSE). Third-party brand marks retain their owners' rights and source terms; they are not relicensed by this package. See [BRAND-REFERENCES.md](BRAND-REFERENCES.md) for individual sources. No endorsement or trademark rights are implied.
+The 66 original AI system icons and the package's original source and isometric presentation are available under the [MIT license](LICENSE). Third-party brand marks retain their owners' rights and source terms; they are not relicensed by this package. See [BRAND-REFERENCES.md](BRAND-REFERENCES.md) for individual sources. No endorsement or trademark rights are implied.
 
 Projection and geometry helpers use Ryan's Anatomy toolkit, included with its [MIT license](vendor/anatomy/LICENSE). Overflow Design informed the general isometric direction.
 

@@ -91,6 +91,49 @@ function diagramSvg(root, style) {
 </svg>\n`;
 }
 
+// A clockwise six-stage cycle, laid out as two rows for Markdown readability.
+const loopNodes = [
+  {id: 'reason', label: 'Reason', note: 'Interpret the current state', x: 30, y: 126},
+  {id: 'plan', label: 'Plan', note: 'Choose the next steps', x: 385, y: 126},
+  {id: 'act', label: 'Act', note: 'Execute an action', x: 740, y: 126},
+  {id: 'observe', label: 'Observe', note: 'Collect the result', x: 740, y: 390},
+  {id: 'evaluate', label: 'Evaluate', note: 'Assess progress', x: 385, y: 390},
+  {id: 'repeat', label: 'Repeat', note: 'Begin the next iteration', x: 30, y: 390},
+];
+
+function loopDiagramSvg(root, style) {
+  const edge = style === 'color' ? '#137EC6' : style === 'duotone' ? '#7956B3' : '#596B83';
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620" role="img" aria-labelledby="loop-title loop-description" font-family="Arial, Helvetica, sans-serif" stroke-linecap="round" stroke-linejoin="round">
+  <title id="loop-title">AI Agent Loop — ${xml(styleLabels[style])} icons</title>
+  <desc id="loop-description">Six stages in sequence: Reason, Plan, Act, Observe, Evaluate, Repeat. Repeat connects back to Reason. Read the upper row from left to right, then the lower row from right to left.</desc>
+  <defs>
+    ${loopNodes.map(node => iconSymbol(root, style, node.id)).join('\n    ')}
+    <marker id="cycle-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="10" markerHeight="10" markerUnits="userSpaceOnUse" orient="auto"><path d="M2 1L8 5L2 9" fill="none" stroke="${edge}" stroke-width="2"/></marker>
+  </defs>
+  <rect x="0.5" y="0.5" width="999" height="619" rx="20" fill="#F7F9FC" stroke="#E2E8F0"/>
+  <text x="30" y="46" fill="#23334B" font-size="25" font-weight="600">AI Agent Loop</text>
+  <text x="30" y="74" fill="#66758B" font-size="14">Reason → Plan → Act → Observe → Evaluate → Repeat</text>
+  <rect x="866" y="32" width="104" height="28" rx="14" fill="#FFFFFF" stroke="#DCE3ED"/>
+  <text x="918" y="50" fill="#596B83" font-size="11" font-weight="600" text-anchor="middle">${xml(styleLabels[style].toUpperCase())}</text>
+  <g fill="none" stroke="${edge}" stroke-width="2" marker-end="url(#cycle-arrow)">
+    <path d="M260 216H385"/><path d="M615 216H740"/>
+    <path d="M855 306V390"/>
+    <path d="M740 480H615"/><path d="M385 480H260"/>
+    <path d="M145 390V306"/>
+  </g>
+  <text x="500" y="352" fill="#66758B" font-size="13" text-anchor="middle">Use each result to inform the next iteration.</text>
+  ${loopNodes.map((node,i)=>`<g transform="translate(${node.x} ${node.y})" aria-label="${node.label}">
+    <rect width="230" height="180" rx="16" fill="#FFFFFF" stroke="#DCE3ED"/>
+    <text x="16" y="25" fill="#8491A5" font-size="11" font-weight="600">${String(i+1).padStart(2,'0')}</text>
+    <use href="#icon-${node.id}" x="59" y="0" width="112" height="112" aria-hidden="true"/>
+    <text x="115" y="135" text-anchor="middle" font-size="18" font-weight="600" fill="#23334B">${node.label}</text>
+    <text x="115" y="158" text-anchor="middle" font-size="12" fill="#66758B">${node.note}</text>
+  </g>`).join('\n  ')}
+  <text x="30" y="602" fill="#8491A5" font-size="10">SUPERINTELLIGENCE</text>
+  <text x="970" y="602" fill="#8491A5" font-size="10" text-anchor="end">Six stage icons · One repeatable cycle</text>
+</svg>\n`;
+}
+
 export function generateDiagrams(root = projectRoot) {
   const files = [];
   for (const style of STYLES) {
@@ -99,6 +142,9 @@ export function generateDiagrams(root = projectRoot) {
     const file = join(directory, 'agent-workflow.svg');
     writeFileSync(file, diagramSvg(root, style));
     files.push(file);
+    const loopFile = join(directory, 'agent-loop.svg');
+    writeFileSync(loopFile, loopDiagramSvg(root, style));
+    files.push(loopFile);
   }
   return files;
 }

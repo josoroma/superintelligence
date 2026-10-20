@@ -12,6 +12,9 @@ import {globalBrandIcons} from '../src/icons-brands-global.mjs';
 import {chinaBrandIcons} from '../src/icons-brands-china.mjs';
 import {ecosystemBrandIcons} from '../src/icons-brands-ecosystem.mjs';
 import {dataIcons} from '../src/icons-data.mjs';
+import {specWorkflowIcons} from '../src/icons-spec-workflow.mjs';
+import {agentConfigIcons} from '../src/icons-agent-config.mjs';
+import {agentLoopIcons} from '../src/icons-agent-loop.mjs';
 import {generateReadmes} from './readmes.mjs';
 import {generateBrand} from './brand.mjs';
 import {generateDiagrams} from './diagram.mjs';
@@ -23,7 +26,8 @@ const ids=['agent','multi-agent','task','goal','feedback-loop','recursive-loop',
 ids.push('hermes','grok','meta-muse','claude','openai','gemini','perplexity','mistral','copilot','cursor','openclaw','manus','deepseek','qwen','kimi','z-ai','minimax','doubao','ernie','hunyuan');
 ids.push('omarchy','huggingface','nvidia');
 ids.push('kaggle','unsloth','runpod','dataset');
-const definitions=[...coreIcons,...modelIcons,...systemIcons,...capabilityIcons,...operationIcons,...featuredBrandIcons,...globalBrandIcons,...chinaBrandIcons,...ecosystemBrandIcons,...dataIcons];
+ids.push('explore','propose','apply','verify','archive','agents-md','claude-md','hooks','commands','skill-bundle','reason','plan','act','observe','evaluate','repeat','agent-loop');
+const definitions=[...coreIcons,...modelIcons,...systemIcons,...capabilityIcons,...operationIcons,...featuredBrandIcons,...globalBrandIcons,...chinaBrandIcons,...ecosystemBrandIcons,...dataIcons,...specWorkflowIcons,...agentConfigIcons,...agentLoopIcons];
 if(definitions.length!==ids.length || new Set(definitions.map(i=>i.id)).size!==ids.length) {
   throw new Error(`Expected ${ids.length} unique concepts`);
 }
@@ -89,4 +93,4 @@ if(existsSync(join(root,'src/preview.mjs'))) {
 }
 generateDiagrams();
 generateReadmes();
-console.log(`Built ${icons.length} icons × ${STYLES.length} styles = ${icons.length*STYLES.length} standalone SVGs, ${STYLES.length*2} contact sheets, ${STYLES.length} workflow diagrams, brand references, manifest${existsSync(join(root,'index.html'))?', and preview':''}.`);
+console.log(`Built ${icons.length} icons × ${STYLES.length} styles = ${icons.length*STYLES.length} standalone SVGs, ${STYLES.length*2} contact sheets, ${STYLES.length*2} workflow diagrams, brand references, manifest${existsSync(join(root,'index.html'))?', and preview':''}.`);
