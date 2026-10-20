@@ -56,7 +56,7 @@ export function previewHtml(manifest, iconSvgs) {
     }
     .brand { display: flex; gap: 12px; align-items: center; }
     .brand-wordmark { display: inline-flex; align-items: center; gap: 3px; white-space: nowrap; }
-    .brand-mark { width: 34px; height: 34px; flex: none; color: var(--accent); }
+    .brand-mark { width: 52px; height: 34px; flex: none; color: var(--accent); }
     .brand-name { font-size: 17px; letter-spacing: -.035em; font-weight: 760; }
     .brand-divider { height: 16px; width: 1px; background: #d6dade; margin: 0 5px; }
     .brand-section { font-size: 13px; color: #6f7882; }
@@ -246,7 +246,7 @@ export function previewHtml(manifest, iconSvgs) {
       .shell { padding: 0 18px; }
       .masthead { height: 67px; }
       .brand { gap: 8px; }
-      .brand-mark { width: 29px; height: 29px; }
+      .brand-mark { width: 44px; height: 29px; }
       .brand-wordmark { gap: 2px; }
       .brand-name { font-size: 14px; }
       .brand-divider { margin: 0 3px; }

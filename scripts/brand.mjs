@@ -1,12 +1,12 @@
 import {mkdirSync, writeFileSync} from 'node:fs';
 import {dirname, resolve, join} from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {roboticBrain} from '../src/identity-robot.mjs';
+import {neonOctopus} from '../src/identity-octopus.mjs';
 
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 const blue='#00A3FF', ink='#192842', paper='#F5F8FF';
 
-const mark=(color,id)=>`<g transform="scale(.3125)">${roboticBrain({monochrome:color===blue?null:color,id})}</g>`;
+const mark=(color,id)=>`<g transform="scale(.2)">${neonOctopus({monochrome:color===blue?null:color,id})}</g>`;
 
 // Original path lettering, with optical spacing. No fonts or runtime dependencies.
 const letters={
@@ -35,7 +35,7 @@ const word=(text,start)=>{
 };
 const left=word('Super',14);
 const markX=left.end+12;
-const right=word('Intelligence',markX+78);
+const right=word('Intelligence',markX+120);
 const width=right.end+14;
 const svg=(title,w,h,contents)=>`<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img" aria-label="${title}">
   <title>${title}</title>
@@ -46,15 +46,15 @@ const svg=(title,w,h,contents)=>`<svg xmlns="http://www.w3.org/2000/svg" width="
 export function generateBrand() {
   const dir=join(root,'brand');
   mkdirSync(dir,{recursive:true});
-  writeFileSync(join(dir,'superintelligence-mark.svg'),svg('SuperIntelligence robotic-brain octopus',80,80,mark(blue,'si-mark-color')));
+  writeFileSync(join(dir,'superintelligence-mark.svg'),svg('SuperIntelligence neon octopus',128,84,mark(blue,'si-mark-color')));
   for(const [suffix,color] of [['',ink],['-dark',paper],['-black','#000000'],['-white','#FFFFFF']]) {
     const accent=suffix==='-black'||suffix==='-white'?color:blue;
     writeFileSync(join(dir,`superintelligence-logo${suffix}.svg`),svg('SuperIntelligence — Isometric icons for AI systems',width,104,
-      `<g fill="none" stroke="${color}" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round">\n    ${left.paths}\n    ${right.paths}\n  </g>\n  <g transform="translate(${markX} 13) scale(.9)">${mark(accent,`si-logo${suffix||'-light'}`)}</g>`));
+      `<g fill="none" stroke="${color}" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round">\n    ${left.paths}\n    ${right.paths}\n  </g>\n  <g transform="translate(${markX} 12) scale(.9)">${mark(accent,`si-logo${suffix||'-light'}`)}</g>`));
   }
   for(const [suffix,color] of [['black','#000000'],['white','#FFFFFF']]) {
-    writeFileSync(join(dir,`superintelligence-mark-${suffix}.svg`),svg('SuperIntelligence robotic-brain octopus',80,80,mark(color,`si-mark-${suffix}`)));
+    writeFileSync(join(dir,`superintelligence-mark-${suffix}.svg`),svg('SuperIntelligence octopus',128,84,mark(color,`si-mark-${suffix}`)));
   }
-  console.log('Generated SuperIntelligence wordmarks and robotic-brain octopus artwork.');
+  console.log('Generated SuperIntelligence wordmarks and neon octopus artwork.');
 }
 if(process.argv[1] && resolve(process.argv[1])===fileURLToPath(import.meta.url)) generateBrand();

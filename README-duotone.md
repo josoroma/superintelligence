@@ -2,7 +2,7 @@
 <h1 align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="brand/superintelligence-logo-dark.svg">
-    <img src="brand/superintelligence-logo.svg" width="560" alt="SuperIntelligence — Super, robotic-brain octopus, Intelligence">
+    <img src="brand/superintelligence-logo.svg" width="560" alt="SuperIntelligence — Super, neon octopus, Intelligence">
   </picture>
 </h1>
 <p align="center"><strong>A visual language for AI products.</strong></p>
@@ -567,7 +567,7 @@ Stroke weights scale with the viewBox. Stroke uses white faces to hide rear geom
 | Path | Contents |
 | --- | --- |
 | [icons/](icons/) | 375 SVGs organized into five style folders |
-| [brand/](brand/) | SuperIntelligence wordmark and robotic-brain octopus, with light, dark, and monochrome SVGs |
+| [brand/](brand/) | SuperIntelligence wordmark and neon octopus, with light, dark, and monochrome SVGs |
 | [README.md](README.md) and `README-{style}.md` | Complete, cross-linked galleries for each of the five styles |
 | [index.html](index.html) | Standalone offline preview and exporter |
 | [previews/](previews/) | SVG and PNG sheets of the complete collection |
@@ -591,7 +591,7 @@ Edit the system geometry in [icons-core.mjs](src/icons-core.mjs), [icons-models.
 
 Change materials and style mapping in [scene.mjs](src/scene.mjs). Edit source modules rather than generated files to preserve your changes across builds.
 
-The product name is **SuperIntelligence**, with a robotic-brain octopus between **Super** and **Intelligence**. Its exposed cortex, camera optics, and eight articulated metal arms represent intelligence, perception, and coordinated action. Edit the artwork in [identity-robot.mjs](src/identity-robot.mjs) and [identity-arms.mjs](src/identity-arms.mjs), or the font-free vector lettering in [scripts/brand.mjs](scripts/brand.mjs); the build regenerates every logo asset.
+The product name is **SuperIntelligence**, with a neon octopus between **Super** and **Intelligence**. Its rounded head, luminous eyes, and eight flowing arms follow the supplied octopus reference, with a purple-to-cyan contour and no surrounding icon tiles. Edit the artwork in [identity-octopus.mjs](src/identity-octopus.mjs), or the font-free vector lettering in [scripts/brand.mjs](scripts/brand.mjs); the build regenerates every logo asset.
 
 Edit [README.md](README.md) to update the shared documentation. The [README generator](scripts/readmes.mjs) uses it as the Color source and creates the four suffixed style galleries; run it directly with `node scripts/readmes.mjs` or as part of the build.
 
