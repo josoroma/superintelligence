@@ -1,10 +1,10 @@
 {
   "name": "SuperIntelligence — AI Systems",
-  "version": "1.5.0",
-  "count": 71,
+  "version": "1.6.0",
+  "count": 75,
   "collections": {
-    "systems": 48,
-    "brands": 23
+    "systems": 49,
+    "brands": 26
   },
   "styles": [
     "stroke",
@@ -1592,6 +1592,136 @@
         "duotone": "icons/duotone/nvidia.svg",
         "fill": "icons/fill/nvidia.svg",
         "color": "icons/color/nvidia.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "kaggle",
+      "name": "Kaggle",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Kaggle",
+        "productType": "Data science and machine learning platform",
+        "website": "https://www.kaggle.com/",
+        "reference": "https://www.kaggle.com/brand-guidelines",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://www.kaggle.com/static/images/site-logo.svg",
+        "assetLicense": "Official Kaggle brand artwork; no open-source artwork or trademark license is granted by this package. Brand-owner rights and source usage terms apply.",
+        "assetName": "kaggle-site-logo.svg",
+        "assetNotes": "The native lowercase k subpath is extracted unchanged from Kaggle’s official cyan wordmark. Its original #20BEFF color is preserved; the remaining letters are omitted for this compact identification icon. The other four styles retain the same k geometry."
+      },
+      "description": "Kaggle’s recognizable lowercase k emblem in its source blue on an isometric tile.",
+      "tags": [
+        "Kaggle",
+        "datasets",
+        "competitions",
+        "notebooks",
+        "data science"
+      ],
+      "index": 72,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/kaggle.svg",
+        "two-tone": "icons/two-tone/kaggle.svg",
+        "duotone": "icons/duotone/kaggle.svg",
+        "fill": "icons/fill/kaggle.svg",
+        "color": "icons/color/kaggle.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "unsloth",
+      "name": "Unsloth",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Unsloth",
+        "productType": "Model training and fine-tuning tools",
+        "website": "https://unsloth.ai/",
+        "reference": "https://unsloth.ai/",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://raw.githubusercontent.com/lobehub/lobe-icons/8a1b2821bb768c484fe8da20c5e1838b6bf551a9/packages/static-svg/icons/unsloth-color.svg",
+        "assetLicense": "MIT (LobeHub SVG implementation); Unsloth brand artwork and trademark rights retained by their owners",
+        "assetName": "unsloth-lobehub-color.svg",
+        "assetNotes": "Faithful native LobeHub color and monochrome Unsloth sloth sticker marks, compared with the official repository logo. Original path geometry, even-odd cutouts and monochrome opacity preserved; flat source colors, no gradients or raster data."
+      },
+      "description": "Unsloth’s original sloth mark, preserving its distinctive silhouette on the shared isometric tile.",
+      "tags": [
+        "Unsloth",
+        "fine-tuning",
+        "training",
+        "LoRA",
+        "QLoRA",
+        "optimization"
+      ],
+      "index": 73,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/unsloth.svg",
+        "two-tone": "icons/two-tone/unsloth.svg",
+        "duotone": "icons/duotone/unsloth.svg",
+        "fill": "icons/fill/unsloth.svg",
+        "color": "icons/color/unsloth.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "runpod",
+      "name": "Runpod",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Runpod",
+        "productType": "GPU cloud and AI infrastructure",
+        "website": "https://www.runpod.io/",
+        "reference": "https://www.runpod.io/brandkit",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://cdn.prod.website-files.com/69ce570adca53340abab8376/69f047c6e55021705127c8da_runpod-logo-black.svg",
+        "assetLicense": "Official Runpod brand artwork; no open-source artwork or trademark license is granted by this package. Brand-owner rights and source usage terms apply.",
+        "assetName": "runpod-logo-black.svg",
+        "assetNotes": "Native cube emblem path from Runpod’s official black SVG lockup. The wordmark is omitted for a compact icon; Color uses the official brand-kit purple #5D29F0. Monochrome variants retain the same compound path and even-odd cutouts. These isometric presentations are unofficial variants; the linked brand kit provides the unmodified assets."
+      },
+      "description": "Runpod’s official cube symbol in its source purple, with the original geometric cutouts.",
+      "tags": [
+        "Runpod",
+        "RunPod",
+        "GPU",
+        "cloud",
+        "Serverless",
+        "Pods",
+        "inference"
+      ],
+      "index": 74,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/runpod.svg",
+        "two-tone": "icons/two-tone/runpod.svg",
+        "duotone": "icons/duotone/runpod.svg",
+        "fill": "icons/fill/runpod.svg",
+        "color": "icons/color/runpod.svg"
+      }
+    },
+    {
+      "collection": "systems",
+      "id": "dataset",
+      "name": "Dataset",
+      "category": "Data & knowledge",
+      "description": "A stack of structured record sheets carries a clear column header and a three-by-three data grid.",
+      "tags": [
+        "dataset",
+        "data",
+        "records",
+        "table",
+        "training data",
+        "corpus",
+        "data collection"
+      ],
+      "index": 75,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/dataset.svg",
+        "two-tone": "icons/two-tone/dataset.svg",
+        "duotone": "icons/duotone/dataset.svg",
+        "fill": "icons/fill/dataset.svg",
+        "color": "icons/color/dataset.svg"
       }
     }
   ]

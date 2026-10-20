@@ -1,0 +1,34 @@
+[
+  {
+    "file": "unsloth-lobehub-color.svg",
+    "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/8a1b2821bb768c484fe8da20c5e1838b6bf551a9/packages/static-svg/icons/unsloth-color.svg",
+    "reference": "https://unsloth.ai/",
+    "retrieved": "2026-10-20",
+    "sha256": "068c4d17e21e2008a8660637177c061f6dddf36c1bac590d46617f01e48b0ef3",
+    "usage": "Native source artwork"
+  },
+  {
+    "file": "unsloth-lobehub-mono.svg",
+    "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/8a1b2821bb768c484fe8da20c5e1838b6bf551a9/packages/static-svg/icons/unsloth.svg",
+    "reference": "https://unsloth.ai/",
+    "retrieved": "2026-10-20",
+    "sha256": "b21691fbbeabdcd549d53efd867cdecfd5916ebf56a9aa5a094f69180300672e",
+    "usage": "Native source artwork"
+  },
+  {
+    "file": "unsloth-official.png",
+    "source": "https://raw.githubusercontent.com/unslothai/unsloth/0c817e5a6c97932fcb602ab1b28a4f97386db326/images/unsloth%20logo%20only.png",
+    "reference": "https://unsloth.ai/",
+    "retrieved": "2026-10-20",
+    "sha256": "368c8b50082367633865450ff53aa4ffa14a63c419230c915c7c22003e22b8ce",
+    "usage": "Visual fidelity reference only; not embedded in output SVGs"
+  },
+  {
+    "file": "LICENSE-lobehub",
+    "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/8a1b2821bb768c484fe8da20c5e1838b6bf551a9/LICENSE",
+    "reference": "https://unsloth.ai/",
+    "retrieved": "2026-10-20",
+    "sha256": "add9d7531d1b21646317a8958e38fc727506fa39d24bdecb44154d943c82753a",
+    "usage": "License for LobeHub SVG implementations"
+  }
+]

@@ -11,6 +11,7 @@ import {featuredBrandIcons} from '../src/icons-brands-featured.mjs';
 import {globalBrandIcons} from '../src/icons-brands-global.mjs';
 import {chinaBrandIcons} from '../src/icons-brands-china.mjs';
 import {ecosystemBrandIcons} from '../src/icons-brands-ecosystem.mjs';
+import {dataIcons} from '../src/icons-data.mjs';
 import {generateReadmes} from './readmes.mjs';
 import {generateBrand} from './brand.mjs';
 
@@ -20,7 +21,8 @@ const {version}=JSON.parse(readFileSync(join(root,'package.json'),'utf8'));
 const ids=['agent','multi-agent','task','goal','feedback-loop','recursive-loop','reflection','llm','slm','local-model','training','rsi','harness','rag','vector-database','tokens','context-window','reasoning','tools','memory','orchestration','evaluation','alignment','inference','knowledge-graph','prompt','self-play','asi-core','monitoring','mixture-of-experts','distillation','world-model','mcp','skills','computer-use','voice','multimodal','human-approval','sandbox','context-compaction','model-routing','prompt-cache','structured-output','citations','token-budget','permissions','a2a','synthetic-data'];
 ids.push('hermes','grok','meta-muse','claude','openai','gemini','perplexity','mistral','copilot','cursor','openclaw','manus','deepseek','qwen','kimi','z-ai','minimax','doubao','ernie','hunyuan');
 ids.push('omarchy','huggingface','nvidia');
-const definitions=[...coreIcons,...modelIcons,...systemIcons,...capabilityIcons,...operationIcons,...featuredBrandIcons,...globalBrandIcons,...chinaBrandIcons,...ecosystemBrandIcons];
+ids.push('kaggle','unsloth','runpod','dataset');
+const definitions=[...coreIcons,...modelIcons,...systemIcons,...capabilityIcons,...operationIcons,...featuredBrandIcons,...globalBrandIcons,...chinaBrandIcons,...ecosystemBrandIcons,...dataIcons];
 if(definitions.length!==ids.length || new Set(definitions.map(i=>i.id)).size!==ids.length) {
   throw new Error(`Expected ${ids.length} unique concepts`);
 }

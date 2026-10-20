@@ -1,6 +1,6 @@
 # Agents & platforms — artwork references
 
-23 source-based brand marks in SuperIntelligence’s original isometric presentation, each exported in five styles. The exported illustrations are unofficial; their source geometry comes from the official assets or identified vector libraries below.
+26 source-based brand marks in SuperIntelligence’s original isometric presentation, each exported in five styles. The exported illustrations are unofficial; their source geometry comes from the official assets or identified vector libraries below.
 
 The [MIT license](LICENSE) covers SuperIntelligence’s original system icons, code, and presentation. Third-party marks retain their owners’ rights and source terms; this package does not relicense them or grant trademark rights. Source-license notices and downloaded reference assets are included in [vendor/brand-logos](vendor/brand-logos/). Use the linked official resources when you need unmodified brand assets.
 
@@ -31,6 +31,9 @@ Identity references checked on 2026-10-20. Color preserves source flat colors wh
 | [Omarchy](icons/color/omarchy.svg) | Omarchy / Omacom | [Brand reference](https://omarchy.org/) | [Asset source](https://omarchy.org/brand/omarchy-logo.svg) |
 | [Hugging Face](icons/color/huggingface.svg) | Hugging Face | [Brand reference](https://huggingface.co/brand) | [Asset source](https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg) |
 | [NVIDIA](icons/color/nvidia.svg) | NVIDIA | [Brand reference](https://www.nvidia.com/en-us/about-nvidia/legal-info/logo-brand-usage/) | [Asset source](https://www.nvidia.com/) |
+| [Kaggle](icons/color/kaggle.svg) | Kaggle | [Brand reference](https://www.kaggle.com/brand-guidelines) | [Asset source](https://www.kaggle.com/static/images/site-logo.svg) |
+| [Unsloth](icons/color/unsloth.svg) | Unsloth | [Brand reference](https://unsloth.ai/) | [Asset source](https://raw.githubusercontent.com/lobehub/lobe-icons/8a1b2821bb768c484fe8da20c5e1838b6bf551a9/packages/static-svg/icons/unsloth-color.svg) |
+| [Runpod](icons/color/runpod.svg) | Runpod | [Brand reference](https://www.runpod.io/brandkit) | [Asset source](https://cdn.prod.website-files.com/69ce570adca53340abab8376/69f047c6e55021705127c8da_runpod-logo-black.svg) |
 
 ## Adaptations and source terms
 
@@ -57,6 +60,9 @@ Identity references checked on 2026-10-20. Color preserves source flat colors wh
 - **Omarchy:** Original official geometric emblem and source green #9ECE6A; compound path and even-odd cutouts preserved without redrawing. Source terms: Official Omarchy website brand asset; artwork and trademark rights retained by Omarchy / Omacom.
 - **Hugging Face:** Native color artwork from Hugging Face’s official brand kit, with the original yellow face, hands, orange outline, facial features, and red tongue. The other four styles use its official monochrome artwork, uniformly scaled from the source 1500-unit viewBox into the 256-unit color viewBox. Source terms: Brand-owned artwork supplied through Hugging Face’s official brand-assets dataset. No open-source asset license is stated there; trademark rights remain with Hugging Face.
 - **NVIDIA:** Unmodified native eyemark path and #76B900 green extracted from NVIDIA’s official website logo. The wordmark is omitted for this compact identification icon, and the viewBox is cropped to the eyemark. Monochrome variants preserve the same path. Source terms: Brand-owned NVIDIA trademark; no trademark license is granted by this package. NVIDIA’s official logo and brand guidelines govern authorized use.
+- **Kaggle:** The native lowercase k subpath is extracted unchanged from Kaggle’s official cyan wordmark. Its original #20BEFF color is preserved; the remaining letters are omitted for this compact identification icon. The other four styles retain the same k geometry. Source terms: Official Kaggle brand artwork; no open-source artwork or trademark license is granted by this package. Brand-owner rights and source usage terms apply.
+- **Unsloth:** Faithful native LobeHub color and monochrome Unsloth sloth sticker marks, compared with the official repository logo. Original path geometry, even-odd cutouts and monochrome opacity preserved; flat source colors, no gradients or raster data. Source terms: MIT (LobeHub SVG implementation); Unsloth brand artwork and trademark rights retained by their owners.
+- **Runpod:** Native cube emblem path from Runpod’s official black SVG lockup. The wordmark is omitted for a compact icon; Color uses the official brand-kit purple #5D29F0. Monochrome variants retain the same compound path and even-odd cutouts. These isometric presentations are unofficial variants; the linked brand kit provides the unmodified assets. Source terms: Official Runpod brand artwork; no open-source artwork or trademark license is granted by this package. Brand-owner rights and source usage terms apply.
 
 Hermes uses the detailed portrait paths from Nous Research’s master SVG. Qwen and Doubao are vector traces of the current official reference images; the exported SVGs contain paths, not embedded bitmaps.
 

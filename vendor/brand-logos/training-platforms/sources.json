@@ -1,0 +1,20 @@
+{
+  "kaggle": {
+    "source": "https://www.kaggle.com/static/images/site-logo.svg",
+    "reference": "https://www.kaggle.com/brand-guidelines",
+    "license": "Official Kaggle brand artwork; no open-source artwork or trademark license is granted by this package. Brand-owner rights and source usage terms apply.",
+    "notes": "The native lowercase k subpath is extracted unchanged from Kaggle’s official cyan wordmark. Its original #20BEFF color is preserved; the remaining letters are omitted for this compact identification icon. The other four styles retain the same k geometry.",
+    "assetName": "kaggle-site-logo.svg",
+    "retrieved": "2026-10-20",
+    "sha256": "9eddd5ddf36fccaa8157ede9c121d3ec20dd1fb26ee94ea1c05d712438999c5f"
+  },
+  "runpod": {
+    "source": "https://cdn.prod.website-files.com/69ce570adca53340abab8376/69f047c6e55021705127c8da_runpod-logo-black.svg",
+    "reference": "https://www.runpod.io/brandkit",
+    "license": "Official Runpod brand artwork; no open-source artwork or trademark license is granted by this package. Brand-owner rights and source usage terms apply.",
+    "notes": "Native cube emblem path from Runpod’s official black SVG lockup. The wordmark is omitted for a compact icon; Color uses the official brand-kit purple #5D29F0. Monochrome variants retain the same compound path and even-odd cutouts. These isometric presentations are unofficial variants; the linked brand kit provides the unmodified assets.",
+    "assetName": "runpod-logo-black.svg",
+    "retrieved": "2026-10-20",
+    "sha256": "1beb0fa20d94dd5631323b82c6bc73dc64422aa0540106c1b1af89de09a58e07"
+  }
+}

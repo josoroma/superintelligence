@@ -296,7 +296,7 @@ export function previewHtml(manifest, iconSvgs) {
       <div class="brand">
         <span class="brand-wordmark" role="img" aria-label="SuperIntelligence"><span class="brand-name">Super</span>${brandMark}<span class="brand-name">Intelligence</span></span><span class="brand-divider"></span><span class="brand-section">AI Systems</span>
       </div>
-      <div class="version"><span class="status-dot"></span>VOL. 01 <span aria-hidden="true">/</span> 1.5</div>
+      <div class="version"><span class="status-dot"></span>VOL. 01 <span aria-hidden="true">/</span> 1.6</div>
     </header>
 
     <section class="intro" aria-labelledby="page-title">
