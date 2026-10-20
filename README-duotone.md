@@ -18,7 +18,7 @@ Isometric icons for the systems AI teams build and the agents, platforms, and de
 **Browse styles:** [Stroke](README-stroke.md) · [Two-tone](README-two-tone.md) · [**Duotone**](README-duotone.md) · [Fill](README-fill.md) · [Color](README.md)
 <!-- style-navigation:end -->
 
-[Agents & platforms](#agents--platforms) · [AI systems](#ai-systems) · [OpenSpec](#openspec-workflow) · [Agent loop](#ai-agent-loop) · [Deep Agents diagram](#deep-agents-research-and-tool-loop) · [Choose a style](#five-styles-one-system) · [Get started](#get-started) · [License](LICENSE)
+[Agents & platforms](#agents--platforms) · [AI systems](#ai-systems) · [OpenSpec](#openspec-workflow) · [Agent loop](#ai-agent-loop) · [Deep Agents diagram](#deep-agents-research-and-tool-loop) · [Choose a style](#five-styles-one-system) · [Get started](#get-started) · [Codex skills](#codex-skills) · [License](LICENSE)
 
 <p align="center">
   <a href="icons/duotone/hermes.svg"><img src="icons/duotone/hermes.svg" width="112" height="112" alt="Hermes Agent"></a>
@@ -804,6 +804,7 @@ Stroke weights scale with the viewBox. Stroke uses white faces to hide rear geom
 | [motion.css](motion.css) | Optional hover and focus motion |
 | [src/](src/) | Editable geometry, renderer, and preview template |
 | [scripts/](scripts/) | Build, validation, and packaging commands |
+| [skills/](skills/) | Codex skills for extending icons and composing diagrams |
 
 ## Customize and rebuild
 
@@ -824,6 +825,40 @@ The product name is **SuperIntelligence**, with a neon octopus between **Super**
 Edit [README.md](README.md) to update the shared documentation. The [README generator](scripts/readmes.mjs) uses it as the Color source and creates the four suffixed style galleries; run it directly with `node scripts/readmes.mjs` or as part of the build.
 
 The included PNG sheets are snapshots of the delivered version. You can also serve the preview with `npm run preview` and open `http://localhost:8080`.
+
+Export any SVG with the included renderer. This step requires Chrome or Chromium; set `CHROME_PATH` if it is installed outside a standard location:
+
+```sh
+node scripts/render-svg.mjs icons/duotone/agent.svg --out qa/agent.png --scale 2
+node scripts/render-svg.mjs examples/diagrams/duotone/deep-agent-research.svg --out qa/deep-agent.png --width 960
+```
+
+## Codex skills
+
+Two reusable skills carry the collection's design and documentation workflow into Codex:
+
+| Skill | Use it for |
+| --- | --- |
+| [superintelligence-icons](skills/superintelligence-icons/SKILL.md) | Create or refine original system icons and source-based platform marks, then update styles, galleries, and exports. |
+| [superintelligence-diagrams](skills/superintelligence-diagrams/SKILL.md) | Compose architecture and workflow diagrams from the icons, with SVG/PNG exports, source references, and Markdown integration. |
+
+From this checkout, link them into your local Codex skills directory:
+
+```sh
+codex_skills_dir="${CODEX_HOME:-$HOME/.codex}/skills"
+mkdir -p "$codex_skills_dir"
+ln -s "$PWD/skills/superintelligence-icons" "$codex_skills_dir/superintelligence-icons"
+ln -s "$PWD/skills/superintelligence-diagrams" "$codex_skills_dir/superintelligence-diagrams"
+```
+
+Keep this checkout available: the skills use its renderer, manifest, and source assets. The symlinks also keep the installed skills in sync with repository updates. Start a new Codex session to load them, then invoke either skill:
+
+```text
+Use $superintelligence-icons to add a speculative decoding icon in all five styles.
+Use $superintelligence-diagrams to illustrate a RAG workflow with retrieval, tools, and observability.
+```
+
+The skills can also work on selected icons or diagrams in another project; include the collection's path when it cannot be inferred from the installed skill. Each task follows the requested output scope.
 
 ## License and credits
 

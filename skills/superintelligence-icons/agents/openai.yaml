@@ -1,0 +1,4 @@
+interface:
+  display_name: "SuperIntelligence Icons"
+  short_description: "Create and extend isometric AI SVG icons"
+  default_prompt: "Use $superintelligence-icons to create or refine SVG icons that match the SuperIntelligence collection."

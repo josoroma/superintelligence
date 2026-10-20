@@ -1,0 +1,4 @@
+interface:
+  display_name: "SuperIntelligence Diagrams"
+  short_description: "Compose architecture diagrams with library icons"
+  default_prompt: "Use $superintelligence-diagrams to create a clear SVG and PNG architecture diagram from the SuperIntelligence icon collection and provide a Markdown embed."
