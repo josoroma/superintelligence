@@ -1,0 +1,5 @@
+SuperIntelligence 🐙
+
+75 isometric icons for AI agents, models, tools, and workflows. Five styles. 375 SVGs for your UI, docs, and diagrams.
+
+https://github.com/josoroma/superintelligence

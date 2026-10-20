@@ -1,0 +1,14 @@
+Use case: ads-marketing
+Asset type: social launch graphic for the SuperIntelligence SVG icon package, landscape 1600 × 900, 16:9.
+References: 1 is the exact existing SuperIntelligence wordmark with its purple-to-cyan organic octopus between Super and Intelligence. 2 is the actual shipped icon contact sheet; use it as the source of product artwork, not as a layout to copy.
+Create a polished, crisp editorial developer-tool launch card. Deep ink/navy background, restrained violet and electric-cyan atmosphere, precise alignment, very generous whitespace, confident contemporary sans-serif typography. It should feel like a real design-tool product launch, not generic AI art.
+Composition: left 55% is typography with small product wordmark near the top; large two-line headline below; metrics and short use-case line below that. Bottom left has a legible repository address. Right 45% is a balanced 3×3 gallery of nine distinct actual package icons on clean off-white rounded square tiles, preserving their geometric isometric shapes, flat fills and linework. Showcase AI Agent, Multi-Agent Swarm, LLM, AI Harness, RAG, Tool Use, Memory, MCP, and Dataset from the contact sheet. Make the icons large and readable, no labels under individual tiles. All nine tiles fully inside the frame with comfortable margins. Very subtle layered spacing for the gallery, no busy connections.
+Preserve the exact brand name and the supplied organic eight-arm octopus silhouette; change only wordmark lettering to white for the dark background. Do not attach icons to its arms. Keep the symbol integrated between Super and Intelligence, not a second mascot elsewhere.
+Exact visible text only:
+Super [existing octopus mark] Intelligence
+A visual language
+for AI.
+75 icons · 5 styles · 375 SVGs
+For UI, docs & diagrams.
+github.com/josoroma/superintelligence
+Do not add badges, pricing, license claims, endorsement claims, platform logos, other copy, watermarks, or browser chrome. No photographic surfaces or generic robot illustrations. Preserve the product’s flat vector icon aesthetic. All text must be perfectly spelled and crisp, with comfortable safe margins and strong hierarchy.
