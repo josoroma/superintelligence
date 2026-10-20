@@ -36,6 +36,7 @@ export function generateReadmes() {
       .replaceAll('icons/color/',`icons/${style}/`)
       .replaceAll('previews/brands-color-contact-sheet.png',`previews/brands-${style}-contact-sheet.png`)
       .replaceAll('previews/color-contact-sheet.png',`previews/${style}-contact-sheet.png`)
+      .replaceAll('examples/diagrams/color/',`examples/diagrams/${style}/`)
       .replace('shown in Color.',`shown in ${label}.`)
       .replace(/<!-- style-navigation:start -->[\s\S]*?<!-- style-navigation:end -->/g,navigation(style))
       .replace('<!-- style-comparison:placeholder -->',comparison);

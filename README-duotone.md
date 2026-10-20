@@ -520,6 +520,40 @@ export function AgentLabel() {
 
 Use descriptive alt text for standalone images and `alt=""` when a visible label already identifies the icon. Inline SVGs include accessible names; use `aria-hidden="true"` for decorative instances.
 
+### Use icons in Markdown diagrams
+
+Use the icons as nodes in architecture diagrams, agent workflows, and technical documentation. This example embeds the actual icon paths in one self-contained SVG, which you can display in a GitHub README with standard Markdown:
+
+![Agent workflow: a prompt goes to an agent and an LLM to produce structured output, with tool calls and memory retrieval.](examples/diagrams/duotone/agent-workflow.svg)
+
+```markdown
+![Agent workflow with tools and memory](examples/diagrams/duotone/agent-workflow.svg)
+```
+
+Copy the diagram SVG into your project and adjust the relative path from your Markdown file. The diagram contains its icon geometry, labels, and connectors; it does not load external images or run JavaScript.
+
+Edit the nodes, positions, and connections in [scripts/diagram.mjs](scripts/diagram.mjs), then run `npm run build` to regenerate the diagram in all five styles. Each style README displays its matching version.
+
+<details>
+<summary>Copy an editable Mermaid example</summary>
+
+[Mermaid image nodes](https://mermaid.js.org/syntax/flowchart.html#image-shape) require Mermaid 11.3+ and a host that permits external images. The example below uses public raw SVG URLs. GitHub supports Mermaid blocks, but the available version and image policy depend on the host; the self-contained SVG above is the portable option.
+
+````markdown
+```mermaid
+flowchart LR
+  P@{ img: "https://raw.githubusercontent.com/josoroma/superintelligence/main/icons/duotone/prompt.svg", label: "Prompt", pos: "b", h: 80, constraint: "on" }
+  A@{ img: "https://raw.githubusercontent.com/josoroma/superintelligence/main/icons/duotone/agent.svg", label: "Agent", pos: "b", h: 80, constraint: "on" }
+  L@{ img: "https://raw.githubusercontent.com/josoroma/superintelligence/main/icons/duotone/llm.svg", label: "Language model", pos: "b", h: 80, constraint: "on" }
+  O@{ img: "https://raw.githubusercontent.com/josoroma/superintelligence/main/icons/duotone/structured-output.svg", label: "Structured output", pos: "b", h: 80, constraint: "on" }
+  P --> A --> L --> O
+```
+````
+
+Replace the icon filenames and labels to describe your system. Choose `stroke`, `two-tone`, `duotone`, `fill`, or `color` as the style folder in the URLs to match your documentation. See GitHub’s [Mermaid documentation](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#creating-mermaid-diagrams) to check the renderer version.
+
+</details>
+
 ### Browse and export locally
 
 Open the included [index.html](index.html) in your browser from a local copy of this package. The preview works offline and includes:
@@ -571,6 +605,7 @@ Stroke weights scale with the viewBox. Stroke uses white faces to hide rear geom
 | [README.md](README.md) and `README-{style}.md` | Complete, cross-linked galleries for each of the five styles |
 | [index.html](index.html) | Standalone offline preview and exporter |
 | [previews/](previews/) | SVG and PNG sheets of the complete collection |
+| [examples/diagrams/](examples/diagrams/) | Ready-to-embed agent workflow diagrams in all five styles |
 | [manifest.json](manifest.json) | Names, descriptions, collections, product metadata, palette, camera, and asset paths |
 | [BRAND-REFERENCES.md](BRAND-REFERENCES.md) | Product references, vector sources, and artwork terms for the 26 agents, platforms, and developer environments |
 | [motion.css](motion.css) | Optional hover and focus motion |
@@ -582,7 +617,7 @@ Stroke weights scale with the viewBox. Stroke uses white faces to hide rear geom
 Requires Node.js 20.10+ and Python 3. No `npm install` is needed.
 
 ```sh
-npm run build   # Regenerate SVGs, SVG sheets, manifest, preview, and style READMEs
+npm run build   # Regenerate icons, diagrams, SVG sheets, manifest, preview, and style READMEs
 npm run check   # Validate all 375 SVGs
 npm run pack    # Create superintelligence-icons.zip
 ```

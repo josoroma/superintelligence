@@ -14,6 +14,7 @@ import {ecosystemBrandIcons} from '../src/icons-brands-ecosystem.mjs';
 import {dataIcons} from '../src/icons-data.mjs';
 import {generateReadmes} from './readmes.mjs';
 import {generateBrand} from './brand.mjs';
+import {generateDiagrams} from './diagram.mjs';
 
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 generateBrand();
@@ -86,5 +87,6 @@ if(existsSync(join(root,'src/preview.mjs'))) {
   const {previewHtml}=await import('../src/preview.mjs');
   writeFileSync(join(root,'index.html'),previewHtml(manifest,svgs));
 }
+generateDiagrams();
 generateReadmes();
-console.log(`Built ${icons.length} icons × ${STYLES.length} styles = ${icons.length*STYLES.length} standalone SVGs, ${STYLES.length*2} contact sheets, brand references, manifest${existsSync(join(root,'index.html'))?', and preview':''}.`);
+console.log(`Built ${icons.length} icons × ${STYLES.length} styles = ${icons.length*STYLES.length} standalone SVGs, ${STYLES.length*2} contact sheets, ${STYLES.length} workflow diagrams, brand references, manifest${existsSync(join(root,'index.html'))?', and preview':''}.`);
