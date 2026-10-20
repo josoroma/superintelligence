@@ -10,6 +10,7 @@ import {operationIcons} from '../src/icons-operations.mjs';
 import {featuredBrandIcons} from '../src/icons-brands-featured.mjs';
 import {globalBrandIcons} from '../src/icons-brands-global.mjs';
 import {chinaBrandIcons} from '../src/icons-brands-china.mjs';
+import {ecosystemBrandIcons} from '../src/icons-brands-ecosystem.mjs';
 import {generateReadmes} from './readmes.mjs';
 import {generateBrand} from './brand.mjs';
 
@@ -18,7 +19,8 @@ generateBrand();
 const {version}=JSON.parse(readFileSync(join(root,'package.json'),'utf8'));
 const ids=['agent','multi-agent','task','goal','feedback-loop','recursive-loop','reflection','llm','slm','local-model','training','rsi','harness','rag','vector-database','tokens','context-window','reasoning','tools','memory','orchestration','evaluation','alignment','inference','knowledge-graph','prompt','self-play','asi-core','monitoring','mixture-of-experts','distillation','world-model','mcp','skills','computer-use','voice','multimodal','human-approval','sandbox','context-compaction','model-routing','prompt-cache','structured-output','citations','token-budget','permissions','a2a','synthetic-data'];
 ids.push('hermes','grok','meta-muse','claude','openai','gemini','perplexity','mistral','copilot','cursor','openclaw','manus','deepseek','qwen','kimi','z-ai','minimax','doubao','ernie','hunyuan');
-const definitions=[...coreIcons,...modelIcons,...systemIcons,...capabilityIcons,...operationIcons,...featuredBrandIcons,...globalBrandIcons,...chinaBrandIcons];
+ids.push('omarchy','huggingface','nvidia');
+const definitions=[...coreIcons,...modelIcons,...systemIcons,...capabilityIcons,...operationIcons,...featuredBrandIcons,...globalBrandIcons,...chinaBrandIcons,...ecosystemBrandIcons];
 if(definitions.length!==ids.length || new Set(definitions.map(i=>i.id)).size!==ids.length) {
   throw new Error(`Expected ${ids.length} unique concepts`);
 }
@@ -51,7 +53,7 @@ function sheet(style, entries=manifest, title='SUPERINTELLIGENCE / AI SYSTEMS') 
     const words=m.name.split(' ');let a='',b='';for(const word of words) {if((a+' '+word).trim().length<=20&&!b) a+=(a?' ':'')+word;else b+=(b?' ':'')+word;}
     return `<g transform="translate(${x} ${y})"><rect width="160" height="182" rx="12" fill="#FFFFFF" stroke="#E4E9F1" stroke-width="1"/><text x="12" y="20" font-family="Arial,sans-serif" font-size="9" fill="#8291A5">${String(i+1).padStart(2,'0')}</text><g transform="translate(16 14)">${inner(svgs[style][m.id])}</g><text x="80" y="151" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="600" fill="#33445E">${xml(a)}</text>${b?`<text x="80" y="165" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="600" fill="#33445E">${xml(b)}</text>`:''}</g>`;
   }).join('')}
-  <text x="40" y="${h-17}" fill="#7B889C" font-family="Arial,sans-serif" font-size="11">${entries.every(m=>m.collection==='brands')?'Source-based brand marks · Original isometric presentation':'48 original system icons · 20 sourced brand marks'} · Transparent icon backgrounds</text></svg>`;
+  <text x="40" y="${h-17}" fill="#7B889C" font-family="Arial,sans-serif" font-size="11">${entries.every(m=>m.collection==='brands')?'Source-based brand marks · Original isometric presentation':`${manifest.filter(m=>m.collection==='systems').length} original system icons · ${manifest.filter(m=>m.collection==='brands').length} sourced brand marks`} · Transparent icon backgrounds</text></svg>`;
 }
 mkdirSync(join(root,'previews'),{recursive:true});
 for(const style of STYLES)writeFileSync(join(root,'previews',`${style}-contact-sheet.svg`),sheet(style));
@@ -76,7 +78,7 @@ ${brands.map(m=>`- **${m.name}:** ${m.brand.assetNotes||'Source geometry preserv
 
 Hermes uses the detailed portrait paths from Nous Research’s master SVG. Qwen and Doubao are vector traces of the current official reference images; the exported SVGs contain paths, not embedded bitmaps.
 
-Vector data lives in [src/logos](src/logos/), with product definitions in [featured brands](src/icons-brands-featured.mjs), [global brands](src/icons-brands-global.mjs), and [Chinese platforms](src/icons-brands-china.mjs). The shared [tile carrier](src/brand-kit.mjs) controls the presentation. Source URLs, notes, terms, and search aliases are also stored in [manifest.json](manifest.json).
+Vector data lives in [src/logos](src/logos/), with product definitions in [featured brands](src/icons-brands-featured.mjs), [global brands](src/icons-brands-global.mjs), [Chinese platforms](src/icons-brands-china.mjs), and [developer platforms](src/icons-brands-ecosystem.mjs). The shared [tile carrier](src/brand-kit.mjs) controls the presentation. Source URLs, notes, terms, and search aliases are also stored in [manifest.json](manifest.json).
 `);
 if(existsSync(join(root,'src/preview.mjs'))) {
   const {previewHtml}=await import('../src/preview.mjs');

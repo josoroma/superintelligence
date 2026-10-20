@@ -1,6 +1,6 @@
 # Agents & platforms — artwork references
 
-20 source-based brand marks in SuperIntelligence’s original isometric presentation, each exported in five styles. The exported illustrations are unofficial; their source geometry comes from the official assets or identified vector libraries below.
+23 source-based brand marks in SuperIntelligence’s original isometric presentation, each exported in five styles. The exported illustrations are unofficial; their source geometry comes from the official assets or identified vector libraries below.
 
 The [MIT license](LICENSE) covers SuperIntelligence’s original system icons, code, and presentation. Third-party marks retain their owners’ rights and source terms; this package does not relicense them or grant trademark rights. Source-license notices and downloaded reference assets are included in [vendor/brand-logos](vendor/brand-logos/). Use the linked official resources when you need unmodified brand assets.
 
@@ -28,6 +28,9 @@ Identity references checked on 2026-10-20. Color preserves source flat colors wh
 | [Doubao](icons/color/doubao.svg) | ByteDance | [Brand reference](https://www.doubao.com/) | [Asset source](https://lf-flow-web-cdn.doubao.com/obj/flow-doubao/doubao/web/doubao_avatar.png) |
 | [ERNIE](icons/color/ernie.svg) | Baidu | [Brand reference](https://ernie.baidu.com/) | [Asset source](https://raw.githubusercontent.com/lobehub/lobe-icons/master/packages/static-svg/icons/wenxin-color.svg) |
 | [Tencent Hunyuan](icons/color/hunyuan.svg) | Tencent | [Brand reference](https://hunyuan.tencent.com/) | [Asset source](https://hunyuan-blog-web-prod-1258344703.cos.ap-guangzhou.myqcloud.com/logo.svg) |
+| [Omarchy](icons/color/omarchy.svg) | Omarchy / Omacom | [Brand reference](https://omarchy.org/) | [Asset source](https://omarchy.org/brand/omarchy-logo.svg) |
+| [Hugging Face](icons/color/huggingface.svg) | Hugging Face | [Brand reference](https://huggingface.co/brand) | [Asset source](https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg) |
+| [NVIDIA](icons/color/nvidia.svg) | NVIDIA | [Brand reference](https://www.nvidia.com/en-us/about-nvidia/legal-info/logo-brand-usage/) | [Asset source](https://www.nvidia.com/) |
 
 ## Adaptations and source terms
 
@@ -51,7 +54,10 @@ Identity references checked on 2026-10-20. Color preserves source flat colors wh
 - **Doubao:** Vector trace of official assistant portrait; flat color regions replace raster shading. Grayscale regions preserve facial features in monochrome variants. Source terms: Official website asset; brand rights remain with ByteDance.
 - **ERNIE:** Exact ERNIE / Wenxin cube paths; gradient replaced with blue spot color. Source terms: MIT — Copyright (c) 2023 LobeHub; brand rights remain with Baidu.
 - **Tencent Hunyuan:** Official circular mark with mask flattened. Monochrome variant uses corresponding LobeHub mark to preserve internal cutouts. Source terms: Official color asset (Tencent); monochrome geometry MIT — Copyright (c) 2023 LobeHub. Brand rights remain with Tencent.
+- **Omarchy:** Original official geometric emblem and source green #9ECE6A; compound path and even-odd cutouts preserved without redrawing. Source terms: Official Omarchy website brand asset; artwork and trademark rights retained by Omarchy / Omacom.
+- **Hugging Face:** Native color artwork from Hugging Face’s official brand kit, with the original yellow face, hands, orange outline, facial features, and red tongue. The other four styles use its official monochrome artwork, uniformly scaled from the source 1500-unit viewBox into the 256-unit color viewBox. Source terms: Brand-owned artwork supplied through Hugging Face’s official brand-assets dataset. No open-source asset license is stated there; trademark rights remain with Hugging Face.
+- **NVIDIA:** Unmodified native eyemark path and #76B900 green extracted from NVIDIA’s official website logo. The wordmark is omitted for this compact identification icon, and the viewBox is cropped to the eyemark. Monochrome variants preserve the same path. Source terms: Brand-owned NVIDIA trademark; no trademark license is granted by this package. NVIDIA’s official logo and brand guidelines govern authorized use.
 
 Hermes uses the detailed portrait paths from Nous Research’s master SVG. Qwen and Doubao are vector traces of the current official reference images; the exported SVGs contain paths, not embedded bitmaps.
 
-Vector data lives in [src/logos](src/logos/), with product definitions in [featured brands](src/icons-brands-featured.mjs), [global brands](src/icons-brands-global.mjs), and [Chinese platforms](src/icons-brands-china.mjs). The shared [tile carrier](src/brand-kit.mjs) controls the presentation. Source URLs, notes, terms, and search aliases are also stored in [manifest.json](manifest.json).
+Vector data lives in [src/logos](src/logos/), with product definitions in [featured brands](src/icons-brands-featured.mjs), [global brands](src/icons-brands-global.mjs), [Chinese platforms](src/icons-brands-china.mjs), and [developer platforms](src/icons-brands-ecosystem.mjs). The shared [tile carrier](src/brand-kit.mjs) controls the presentation. Source URLs, notes, terms, and search aliases are also stored in [manifest.json](manifest.json).

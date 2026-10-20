@@ -1,0 +1,11 @@
+{
+  "omarchy": {
+    "source": "https://omarchy.org/brand/omarchy-logo.svg",
+    "reference": "https://omarchy.org/",
+    "license": "Official Omarchy website brand asset; artwork and trademark rights retained by Omarchy / Omacom",
+    "notes": "Original official geometric emblem and source green #9ECE6A; compound path and even-odd cutouts preserved without redrawing.",
+    "assetName": "omarchy-official.svg",
+    "retrieved": "2026-10-20",
+    "sha256": "4d00403ea7796c1fcd9a1574f807203f8d17f94d7c7fe90045963cf150346f70"
+  }
+}

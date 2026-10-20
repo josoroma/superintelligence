@@ -1,0 +1,30 @@
+{
+  "huggingface": {
+    "source": "https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg",
+    "reference": "https://huggingface.co/brand",
+    "license": "Brand-owned artwork supplied through Hugging Face’s official brand-assets dataset. No open-source asset license is stated there; trademark rights remain with Hugging Face.",
+    "assetName": "hf-logo.svg; hf-logo-monochrome.svg",
+    "notes": "Native color artwork from Hugging Face’s official brand kit, with the original yellow face, hands, orange outline, facial features, and red tongue. The other four styles use its official monochrome artwork, uniformly scaled from the source 1500-unit viewBox into the 256-unit color viewBox.",
+    "monochromeSource": "https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo-monochrome.svg",
+    "files": {
+      "hf-logo.svg": {
+        "sha256": "942cad1ccda905ac5a659dfd2d78b344fccfb84a8a3ac3721e08f488205638a0"
+      },
+      "hf-logo-monochrome.svg": {
+        "sha256": "87ac947dc4f0a9146fcd42aad52b657909bef9860eb284c651a6690e935e0595"
+      }
+    }
+  },
+  "nvidia": {
+    "source": "https://www.nvidia.com/",
+    "reference": "https://www.nvidia.com/en-us/about-nvidia/legal-info/logo-brand-usage/",
+    "license": "Brand-owned NVIDIA trademark; no trademark license is granted by this package. NVIDIA’s official logo and brand guidelines govern authorized use.",
+    "assetName": "nvidia-site-logo.svg (official inline eyemark)",
+    "notes": "Unmodified native eyemark path and #76B900 green extracted from NVIDIA’s official website logo. The wordmark is omitted for this compact identification icon, and the viewBox is cropped to the eyemark. Monochrome variants preserve the same path.",
+    "files": {
+      "nvidia-site-logo.svg": {
+        "sha256": "e4fb11a8a54c3a4da355f33bb127b38d3d6fe2c0f339afaa3916773b8dbed2d0"
+      }
+    }
+  }
+}

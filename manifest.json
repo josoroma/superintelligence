@@ -1,10 +1,10 @@
 {
   "name": "SuperIntelligence — AI Systems",
-  "version": "1.4.0",
-  "count": 68,
+  "version": "1.5.0",
+  "count": 71,
   "collections": {
     "systems": 48,
-    "brands": 20
+    "brands": 23
   },
   "styles": [
     "stroke",
@@ -1487,6 +1487,111 @@
         "duotone": "icons/duotone/hunyuan.svg",
         "fill": "icons/fill/hunyuan.svg",
         "color": "icons/color/hunyuan.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "omarchy",
+      "name": "Omarchy",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Omarchy / Omacom",
+        "productType": "Linux developer environment",
+        "website": "https://omarchy.org/",
+        "reference": "https://omarchy.org/",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://omarchy.org/brand/omarchy-logo.svg",
+        "assetLicense": "Official Omarchy website brand asset; artwork and trademark rights retained by Omarchy / Omacom",
+        "assetName": "omarchy-official.svg",
+        "assetNotes": "Original official geometric emblem and source green #9ECE6A; compound path and even-odd cutouts preserved without redrawing."
+      },
+      "description": "Omarchy’s official geometric emblem, preserving its nested outline and source green.",
+      "tags": [
+        "Omarchy",
+        "Linux",
+        "Arch Linux",
+        "Hyprland",
+        "DHH",
+        "Omacom"
+      ],
+      "index": 69,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/omarchy.svg",
+        "two-tone": "icons/two-tone/omarchy.svg",
+        "duotone": "icons/duotone/omarchy.svg",
+        "fill": "icons/fill/omarchy.svg",
+        "color": "icons/color/omarchy.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "Hugging Face",
+        "productType": "Machine learning model and dataset platform",
+        "website": "https://huggingface.co/",
+        "reference": "https://huggingface.co/brand",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg",
+        "assetLicense": "Brand-owned artwork supplied through Hugging Face’s official brand-assets dataset. No open-source asset license is stated there; trademark rights remain with Hugging Face.",
+        "assetName": "hf-logo.svg; hf-logo-monochrome.svg",
+        "assetNotes": "Native color artwork from Hugging Face’s official brand kit, with the original yellow face, hands, orange outline, facial features, and red tongue. The other four styles use its official monochrome artwork, uniformly scaled from the source 1500-unit viewBox into the 256-unit color viewBox."
+      },
+      "description": "Hugging Face’s official yellow face and hands, with its original monochrome mark in tonal styles.",
+      "tags": [
+        "Hugging Face",
+        "huggingface",
+        "HF",
+        "Hub",
+        "Transformers",
+        "Spaces"
+      ],
+      "index": 70,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/huggingface.svg",
+        "two-tone": "icons/two-tone/huggingface.svg",
+        "duotone": "icons/duotone/huggingface.svg",
+        "fill": "icons/fill/huggingface.svg",
+        "color": "icons/color/huggingface.svg"
+      }
+    },
+    {
+      "collection": "brands",
+      "id": "nvidia",
+      "name": "NVIDIA",
+      "category": "Agents & platforms",
+      "brand": {
+        "organization": "NVIDIA",
+        "productType": "AI computing platform",
+        "website": "https://www.nvidia.com/",
+        "reference": "https://www.nvidia.com/en-us/about-nvidia/legal-info/logo-brand-usage/",
+        "artwork": "Brand mark in isometric presentation",
+        "assetSource": "https://www.nvidia.com/",
+        "assetLicense": "Brand-owned NVIDIA trademark; no trademark license is granted by this package. NVIDIA’s official logo and brand guidelines govern authorized use.",
+        "assetName": "nvidia-site-logo.svg (official inline eyemark)",
+        "assetNotes": "Unmodified native eyemark path and #76B900 green extracted from NVIDIA’s official website logo. The wordmark is omitted for this compact identification icon, and the viewBox is cropped to the eyemark. Monochrome variants preserve the same path."
+      },
+      "description": "NVIDIA’s official eye symbol, preserving its native cutouts and signature green.",
+      "tags": [
+        "NVIDIA",
+        "Nvidia",
+        "GPU",
+        "CUDA",
+        "NIM",
+        "AI computing"
+      ],
+      "index": 71,
+      "viewBox": "0 0 128 128",
+      "files": {
+        "stroke": "icons/stroke/nvidia.svg",
+        "two-tone": "icons/two-tone/nvidia.svg",
+        "duotone": "icons/duotone/nvidia.svg",
+        "fill": "icons/fill/nvidia.svg",
+        "color": "icons/color/nvidia.svg"
       }
     }
   ]
