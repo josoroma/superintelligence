@@ -16,7 +16,7 @@ Isometric icons for the systems AI teams build and the agents, platforms, and de
 **Browse styles:** [Stroke](README-stroke.md) · [Two-tone](README-two-tone.md) · [Duotone](README-duotone.md) · [Fill](README-fill.md) · [**Color**](README.md)
 <!-- style-navigation:end -->
 
-[Agents & platforms](#agents--platforms) · [AI systems](#ai-systems) · [OpenSpec](#openspec-workflow) · [Agent loop](#ai-agent-loop) · [Choose a style](#five-styles-one-system) · [Get started](#get-started) · [License](LICENSE)
+[Agents & platforms](#agents--platforms) · [AI systems](#ai-systems) · [OpenSpec](#openspec-workflow) · [Agent loop](#ai-agent-loop) · [Deep Agents diagram](#deep-agents-research-and-tool-loop) · [Choose a style](#five-styles-one-system) · [Get started](#get-started) · [License](LICENSE)
 
 <p align="center">
   <a href="icons/color/hermes.svg"><img src="icons/color/hermes.svg" width="112" height="112" alt="Hermes Agent"></a>
@@ -729,6 +729,22 @@ Replace the icon filenames and labels to describe your system. Choose `stroke`, 
 
 </details>
 
+### Deep Agents: research and tool loop
+
+An architecture diagram based on the [current Deep Agents documentation](https://docs.langchain.com/oss/python/deepagents/overview), checked on October 20, 2026. It connects the model/tool loop to search, computer use, files, subagents, LangGraph state, LangSmith observability, and application logs.
+
+![LangChain Deep Agents model and tool loop, configured tools, harness capabilities, telemetry, and the bounded Content Writer workflow.](examples/diagrams/color/deep-agent-research.svg)
+
+[Download SVG](examples/diagrams/color/deep-agent-research.svg) · [Download PNG](examples/diagrams/color/deep-agent-research.png) · [Architecture notes and sources](examples/deep-agent-research.md)
+
+```markdown
+![Deep Agents research and tool loop](examples/diagrams/color/deep-agent-research.svg)
+```
+
+The example strip follows [Deep-Research-Content-Writer](https://github.com/josoroma/Deep-Research-Content-Writer): application-controlled search and collection, followed by bounded agent authoring and citation repair. Computer use is shown as a proposed extension to the example. Planning, sandbox execution, persistence, and telemetry are configured capabilities; the notes identify the defaults and the example's actual implementation.
+
+Edit [scripts/deep-agent-diagram.mjs](scripts/deep-agent-diagram.mjs) and run `npm run build` to regenerate the five SVG styles. The included PNGs are export snapshots.
+
 ### Browse and export locally
 
 Open the included [index.html](index.html) in your browser from a local copy of this package. The preview works offline and includes:
@@ -780,7 +796,7 @@ Stroke weights scale with the viewBox. Stroke uses white faces to hide rear geom
 | [README.md](README.md) and `README-{style}.md` | Complete, cross-linked galleries for each of the five styles |
 | [index.html](index.html) | Standalone offline preview and exporter |
 | [previews/](previews/) | SVG and PNG sheets of the complete collection |
-| [examples/diagrams/](examples/diagrams/) | Ready-to-embed agent workflow and six-stage loop diagrams in all five styles |
+| [examples/diagrams/](examples/diagrams/) | Agent workflow, six-stage loop, and Deep Agents research diagrams in all five styles |
 | [manifest.json](manifest.json) | Names, descriptions, collections, product metadata, palette, camera, and asset paths |
 | [BRAND-REFERENCES.md](BRAND-REFERENCES.md) | Product references, vector sources, and artwork terms for the 32 agents, platforms, and developer environments |
 | [motion.css](motion.css) | Optional hover and focus motion |

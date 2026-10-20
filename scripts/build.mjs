@@ -21,6 +21,7 @@ import {vercelBrandIcons} from '../src/icons-brands-vercel.mjs';
 import {generateReadmes} from './readmes.mjs';
 import {generateBrand} from './brand.mjs';
 import {generateDiagrams} from './diagram.mjs';
+import {generateDeepAgentDiagrams} from './deep-agent-diagram.mjs';
 
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');
 generateBrand();
@@ -95,6 +96,6 @@ if(existsSync(join(root,'src/preview.mjs'))) {
   const {previewHtml}=await import('../src/preview.mjs');
   writeFileSync(join(root,'index.html'),previewHtml(manifest,svgs));
 }
-generateDiagrams();
+const diagrams=[...generateDiagrams(),...generateDeepAgentDiagrams(root)];
 generateReadmes();
-console.log(`Built ${icons.length} icons × ${STYLES.length} styles = ${icons.length*STYLES.length} standalone SVGs, ${STYLES.length*2} contact sheets, ${STYLES.length*2} workflow diagrams, brand references, manifest${existsSync(join(root,'index.html'))?', and preview':''}.`);
+console.log(`Built ${icons.length} icons × ${STYLES.length} styles = ${icons.length*STYLES.length} standalone SVGs, ${STYLES.length*2} contact sheets, ${diagrams.length} workflow diagrams, brand references, manifest${existsSync(join(root,'index.html'))?', and preview':''}.`);
